@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "news": {
+      "1.0.6": {
+        "en": "Removed this.disable() to prevent unexpected errors",
+        "de": "Diese.disable() entfernt, um unerwartete Fehler zu verhindern",
+        "ru": "Удалено this.disable() для предотвращения непредвиденных ошибок",
+        "pt": "Removedo this.disable() para evitar erros inesperados",
+        "nl": "Om onverwachte fouten te voorkomen",
+        "fr": "Supprimer ce.disable() pour éviter les erreurs inattendues",
+        "it": "Rimuoveto questo.disable() per prevenire errori inaspettati",
+        "es": "Quitado esto.disable() para prevenir errores inesperados",
+        "pl": "Rezultatem tego jest niespodziewanie błędów",
+        "uk": "Вилучено це.необхідний() для запобігання несподіваних помилок",
+        "zh-cn": "删除这一可区分的(防止意外错误)"
+      },
       "1.0.5": {
         "en": "Updated Workflows",
         "de": "Aktualisierte Workflows",
@@ -80,18 +93,6 @@
         "pl": "pierwsze wydanie",
         "uk": "початковий реліз",
         "zh-cn": "初步释放"
-      },
-      "0.0.1": {
-        "en": "initial release",
-        "de": "Erstveröffentlichung",
-        "ru": "Начальная версия",
-        "pt": "lançamento inicial",
-        "nl": "Eerste uitgave",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Pierwsze wydanie",
-        "zh-cn": "首次出版"
       }
     },
     "title": "DDNS CloudFlare Updater",
