@@ -1,9 +1,9 @@
 {
 	"common": {
 		"name": "cloudflare",
-		"version": "0.0.1",
+		"version": "1.0.0",
 		"news": {
-			"0.0.1": {
+			"1.0.0": {
 				"en": "initial release",
 				"de": "Erstveröffentlichung",
 				"ru": "Начальная версия",
@@ -42,7 +42,7 @@
 			"zh-cn": "使用您的公共 IP 地址自动更新 DNS"
 		},
 		"authors": [
-			"Marco15453 <marcolpder@gmail.com>"
+			"Marco15453 <support@marco15453.xyz>"
 		],
 		"keywords": [
 			"DNS",
@@ -79,9 +79,31 @@
 			}
 		]
 	},
+	"encryptedNative": [
+		"authKey",
+		"zoneIdentifier",
+		"slackUri",
+		"discordUri"
+	],
+	"protectedNative": [
+		"authKey",
+		"zoneIdentifier",
+		"slackUri",
+		"discordUri"
+	],
 	"native": {
-		"option1": true,
-		"option2": "42"
+		"authEmail": "example@gmail.com",
+		"authMethod": "global",
+		"authKey": "",
+		"zoneIdentifier": "",
+		"recordName": "example.org",
+		"ttl": 3600,
+		"proxy": false,
+		"siteName": "Example Site",
+		"slackChannel": "",
+		"slackUri": "",
+		"discordUri": "",
+		"checkInterval": 60
 	},
 	"objects": [],
 	"instanceObjects": [

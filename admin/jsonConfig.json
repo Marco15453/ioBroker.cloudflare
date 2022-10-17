@@ -2,14 +2,83 @@
 	"i18n": true,
 	"type": "panel",
 	"items": {
-		"option1": {
-			"type": "checkbox",
-			"label": "option1",
+		"authEmail": {
+			"type": "text",
+			"label": "The email used to login 'https://dash.cloudflare.com'",
+			"help": "The email used to login 'https://dash.cloudflare.com'",
+			"default": "example@gmail.com",
 			"newLine": true
 		},
-		"option2": {
+		"authMethod": {
 			"type": "text",
-			"label": "option2",
+			"label": "Set to 'global' for Global API Key or 'token' for Scoped API Token",
+			"help": "Set to 'global' for Global API Key or 'token' for Scoped API Token",
+			"default": "global",
+			"newLine": true
+		},
+		"authKey": {
+			"type": "password",
+			"label": "Your API Token",
+			"help": "Your API Token",
+			"newLine": true
+		},
+		"zoneIdentifier": {
+			"type": "text",
+			"label": "Can be found in the 'Overview' tab of your domain",
+			"help": "Can be found in the 'Overview' tab of your domain",
+			"newLine": true
+		},
+		"recordName": {
+			"type": "text",
+			"label": "Which record you want to be synced",
+			"help": "Which record you want to be synced",
+			"default": "example.org",
+			"newLine": true
+		},
+		"ttl": {
+			"type": "number",
+			"label": "Set the DNS TTL (seconds) [0 will put it to auto]",
+			"help": "Set the DNS TTL (seconds) [0 will put it to auto]",
+			"default": 3600,
+			"newLine": true
+		},
+		"proxy": {
+			"type": "checkbox",
+			"label": "Enable Proxy for the record",
+			"help": "Enable Proxy for the record",
+			"default": false,
+			"newLine": true
+		},
+		"siteName": {
+			"type": "text",
+			"label": "Title of site",
+			"help": "Title of site",
+			"default": "Example Site",
+			"newLine": true
+		},
+		"slackChannel": {
+			"type": "text",
+			"label": "Slack Channel #example",
+			"help": "Slack Channel #example",
+			"newLine": true
+		},
+		"slackUri": {
+			"type": "text",
+			"label": "URI for Slack Webhook 'https://hooks.slack.com/services/xxxxx'",
+			"help": "URI for Slack Webhook 'https://hooks.slack.com/services/xxxxx'",
+			"newLine": true
+		},
+		"discordUri": {
+			"type": "text",
+			"label": "URI for Discord Webhook 'https://discordapp.com/api/webhooks/xxxxx'",
+			"help": "URI for Discord Webhook 'https://discordapp.com/api/webhooks/xxxxx'",
+			"newLine": true
+		},
+		"checkInterval": {
+			"type": "number",
+			"label": "Set the Update Interval (seconds)",
+			"help": "Set the Update Interval (seconds)",
+			"default": 60,
 			"newLine": true
 		}
 	}

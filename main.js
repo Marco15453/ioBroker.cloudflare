@@ -4,12 +4,8 @@
  * Created with @iobroker/create-adapter v2.3.0
  */
 
-// The adapter-core module gives you access to the core ioBroker functions
-// you need to create an adapter
 const utils = require("@iobroker/adapter-core");
-
-// Load your modules here, e.g.:
-// const fs = require("fs");
+const axios = require('axios')
 
 class Cloudflare extends utils.Adapter {
 
@@ -22,149 +18,170 @@ class Cloudflare extends utils.Adapter {
 			name: "cloudflare",
 		});
 		this.on("ready", this.onReady.bind(this));
-		this.on("stateChange", this.onStateChange.bind(this));
-		// this.on("objectChange", this.onObjectChange.bind(this));
-		// this.on("message", this.onMessage.bind(this));
 		this.on("unload", this.onUnload.bind(this));
 	}
 
-	/**
-	 * Is called when databases are connected and adapter received configuration.
-	 */
 	async onReady() {
-		// Initialize your adapter here
-
-		// Reset the connection indicator during startup
 		this.setState("info.connection", false, true);
 
-		// The adapters config (in the instance object everything under the attribute "native") is accessible via
-		// this.config:
-		this.log.info("config option1: " + this.config.option1);
-		this.log.info("config option2: " + this.config.option2);
+		if(this.config.authEmail == null || this.config.authEmail == "" || this.config.authEmail == "example@gmail.com") {
+			this.log.error('Auth Email cannot be null or be example@gmail.com, disabling adapter!')
+			this.disable()
+			return
+		}
 
-		/*
-		For every state in the system there has to be also an object of type state
-		Here a simple template for a boolean variable named "testVariable"
-		Because every adapter instance uses its own unique namespace variable names can't collide with other adapters variables
-		*/
-		await this.setObjectNotExistsAsync("testVariable", {
-			type: "state",
-			common: {
-				name: "testVariable",
-				type: "boolean",
-				role: "indicator",
-				read: true,
-				write: true,
-			},
-			native: {},
+		if(this.config.authMethod != 'global' && this.config.authMethod != 'token') {
+			this.log.error('Auth Method was not global or token, disabling adapter!')
+			this.disable()
+			return
+		}
+
+		if(this.config.authKey == null || this.config.authEmail == "") {
+			this.log.error('Auth Key cannot be null, disabling adapter!')
+			this.disable()
+			return
+		}
+
+		if(this.config.zoneIdentifier == null || this.config.zoneIdentifier == "") {
+			this.log.error('Zone Identifier cannot be null, disabling adapter!')
+			this.disable()
+			return
+		}
+
+		if(this.config.recordName == null || this.config.recordName == "" || this.config.recordName == "example.org") {
+			this.log.error('Record Name cannot be null or be example.org, disabling adapter!')
+			this.disable()
+			return
+		}
+
+		if(this.config.ttl <= -1) {
+			this.log.error('TTL was under 0, disabling adapter!')
+			this.disable()
+			return
+		}
+
+		if(this.config.proxy != true && this.config.proxy != false) {
+			this.log.error('Proxy was not true or false, disabling adapter!')
+			this.disable()
+			return
+		}
+
+		this.auth_header = this.config.authMethod == 'global' ? 'X-Auth-Key' : 'Authorization'
+		this.updateInterval = null
+		this.notChangedNotified = false
+
+		this.requestClient = axios.create({
+			headers: {
+				'X-Auth-Email': this.config.authEmail,
+				'Content-Type': 'application/json',
+				'Accept': 'application/json'
+			}
 		});
 
-		// In order to get state updates, you need to subscribe to them. The following line adds a subscription for our variable we have created above.
-		this.subscribeStates("testVariable");
-		// You can also add a subscription for multiple states. The following line watches all states starting with "lights."
-		// this.subscribeStates("lights.*");
-		// Or, if you really must, you can also watch all states. Don't do this if you don't need to. Otherwise this will cause a lot of unnecessary load on the system:
-		// this.subscribeStates("*");
+		this.requestClient.defaults.headers.common[`${this.auth_header}`] = `${this.config.authMethod == 'token' ? 'Bearer ' : ''}${this.config.authKey}`
+		this.requestClient.defaults.validateStatus = function() {
+			return true
+		}
 
-		/*
-			setState examples
-			you will notice that each setState will cause the stateChange event to fire (because of above subscribeStates cmd)
-		*/
-		// the variable testVariable is set to true as command (ack=false)
-		await this.setStateAsync("testVariable", true);
+		await this.updateDDNS()
+		this.updateInterval = setInterval(async () => {
+			await this.updateDDNS()
+		}, this.config.checkInterval * 1000)
 
-		// same thing, but the value is flagged "ack"
-		// ack should be always set to true if the value is received from or acknowledged from the target system
-		await this.setStateAsync("testVariable", { val: true, ack: true });
-
-		// same thing, but the state is deleted after 30s (getState will return null afterwards)
-		await this.setStateAsync("testVariable", { val: true, ack: true, expire: 30 });
-
-		// examples for the checkPassword/checkGroup functions
-		let result = await this.checkPasswordAsync("admin", "iobroker");
-		this.log.info("check user admin pw iobroker: " + result);
-
-		result = await this.checkGroupAsync("admin", "admin");
-		this.log.info("check group user admin group admin: " + result);
+		this.setState("info.connection", true, true);
 	}
 
-	/**
-	 * Is called when adapter shuts down - callback has to be called under any circumstances!
-	 * @param {() => void} callback
-	 */
 	onUnload(callback) {
 		try {
-			// Here you must clear all timeouts or intervals that may still be active
-			// clearTimeout(timeout1);
-			// clearTimeout(timeout2);
-			// ...
-			// clearInterval(interval1);
+			this.setState('info.connection', false, true)
 
+			this.updateInterval && clearInterval(this.updateInterval)
 			callback();
 		} catch (e) {
 			callback();
 		}
 	}
 
-	// If you need to react to object changes, uncomment the following block and the corresponding line in the constructor.
-	// You also need to subscribe to the objects with `this.subscribeObjects`, similar to `this.subscribeStates`.
-	// /**
-	//  * Is called if a subscribed object changes
-	//  * @param {string} id
-	//  * @param {ioBroker.Object | null | undefined} obj
-	//  */
-	// onObjectChange(id, obj) {
-	// 	if (obj) {
-	// 		// The object was changed
-	// 		this.log.info(`object ${id} changed: ${JSON.stringify(obj)}`);
-	// 	} else {
-	// 		// The object was deleted
-	// 		this.log.info(`object ${id} deleted`);
-	// 	}
-	// }
+	async updateDDNS() {
+		const ipv4_regex = new RegExp('([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])')
 
-	/**
-	 * Is called if a subscribed state changes
-	 * @param {string} id
-	 * @param {ioBroker.State | null | undefined} state
-	 */
-	onStateChange(id, state) {
-		if (state) {
-			// The state was changed
-			this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+		const ip = await this.requestClient({url: 'https://api.ipify.org'}).then(r => r.data)
+
+		if (!ipv4_regex.test(ip)) {
+			this.log.warn('Failed to find a valid IP.')
+			this.sendLogging(`Failed to find a valid IP.`, 'warn')
+			return
+		}
+
+		const searchRecord = await this.requestClient({url: `https://api.cloudflare.com/client/v4/zones/${this.config.zoneIdentifier}/dns_records?type=A&name=${this.config.recordName}`}).then(r => r.data)
+
+		if(searchRecord.success == false) {
+			let errors = ""
+			for (const error of searchRecord.errors) {
+				errors += `Code: ${error.code} | Message: ${error.message} \n`
+			}
+			this.log.error(`Errors while searching for Record\nError Reads: ${errors}`)
+			this.sendLogging(`Errors while searching for Record\nError Reads:\n${errors}`, 'error')
+			return
+		}
+
+		if(searchRecord.result_info.count == 0) {
+			this.log.warn(`Record does not exist!, perhaps create one first? (${ip} for ${this.config.recordName})`)
+			this.sendLogging(`Record does not exist!, perhaps create one first? (${ip} for ${this.config.recordName})`, 'warn')
+			return
+		}
+
+		if(ip == searchRecord.result[0].content) {
+			if (this.notChangedNotified == false) {
+				this.log.info(`IP (${ip}) for ${this.config.recordName} has not changed.`)
+				this.sendLogging(`IP (${ip}) for ${this.config.recordName} has not changed.`, 'info')
+				this.notChangedNotified = true
+			}
+			return
+		}
+
+		this.notChangedNotified = false
+
+		const recordIdentifier = searchRecord.result[0].id
+		const updateRecord = await this.requestClient({method: 'PATCH', url: `https://api.cloudflare.com/client/v4/zones/${this.config.zoneIdentifier}/dns_records/${recordIdentifier}`, data: JSON.stringify({"type": "A", "name": this.config.recordName, "content": ip, "ttl": this.config.ttl, "proxied": this.config.proxy})}).then(r => r.data)
+		if(updateRecord.success == true) {
+			this.log.info(`${ip} ${this.config.recordName} DDNS updated.`)
+			this.sendLogging(`${this.config.siteName} Updated: ${this.config.recordName}'s new IP Address is ${ip}`, 'info')
 		} else {
-			// The state was deleted
-			this.log.info(`state ${id} deleted`);
+			let errors = ""
+			for (const error of updateRecord.errors) {
+				errors += `Code: ${error.code} | Message: ${error.message} \n`
+			}
+			this.log.error(`Errors while updating record\nError Reads: ${errors}`)
+			this.sendLogging(`Errors while updating record\nError Reads:\n${errors}`, 'error')
 		}
 	}
 
-	// If you need to accept messages in your adapter, uncomment the following block and the corresponding line in the constructor.
-	// /**
-	//  * Some message was sent to this instance over message box. Used by email, pushover, text2speech, ...
-	//  * Using this method requires "common.messagebox" property to be set to true in io-package.json
-	//  * @param {ioBroker.Message} obj
-	//  */
-	// onMessage(obj) {
-	// 	if (typeof obj === "object" && obj.message) {
-	// 		if (obj.command === "send") {
-	// 			// e.g. send email or pushover or whatever
-	// 			this.log.info("send command");
+	async sendLogging(message, type) {
+		if(this.config.slackUri != null && this.config.slackUri != "") {
+			if(type == 'info') {
+				await this.requestClient({method: 'POST', url: this.config.slackUri, data: JSON.stringify({"channel": this.config.slackChannel, "text": `[INFO] IoBroker CloudFlare: ${message}`})})
+			} else if(type == 'warn') {
+				await this.requestClient({method: 'POST', url: this.config.slackUri, data: JSON.stringify({"channel": this.config.slackChannel, "text": `[WARN] IoBroker CloudFlare: ${message}`})})
+			} else if(type == 'error') {
+				await this.requestClient({method: 'POST', url: this.config.slackUri, data: JSON.stringify({"channel": this.config.slackChannel, "text": `[ERROR] IoBroker CloudFlare: ${message}`})})
+			}
+		}
 
-	// 			// Send response in callback if required
-	// 			if (obj.callback) this.sendTo(obj.from, obj.command, "Message received", obj.callback);
-	// 		}
-	// 	}
-	// }
-
+		if(this.config.discordUri != null && this.config.discordUri != "") {
+			if(type == 'info') {
+				await this.requestClient({method: 'POST', url: this.config.discordUri, data: JSON.stringify({"content": `[INFO] IoBroker CloudFlare: ${message}`})})
+			} else if(type == 'warn') {
+				await this.requestClient({method: 'POST', url: this.config.discordUri, data: JSON.stringify({"content": `[WARN] IoBroker CloudFlare: ${message}`})})
+			} else if(type == 'error') {
+				await this.requestClient({method: 'POST', url: this.config.discordUri, data: JSON.stringify({"content": `[ERROR] IoBroker CloudFlare: ${message}`})})
+			}
+		}
+	}
 }
 
 if (require.main !== module) {
-	// Export the constructor in compact mode
-	/**
-	 * @param {Partial<utils.AdapterOptions>} [options={}]
-	 */
 	module.exports = (options) => new Cloudflare(options);
 } else {
-	// otherwise start the instance directly
 	new Cloudflare();
 }
