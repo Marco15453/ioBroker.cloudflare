@@ -19,6 +19,9 @@ Automaticly Updates CloudFlare DNS Record with your Public IP Address
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (Marco15453) Updated Workflows
+
 ### 1.0.4 (2022-10-17)
 * (Marco15453) Updated LICENSE and Adapter Configs
 
