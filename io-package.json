@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "news": {
+      "1.0.5": {
+        "en": "Updated Workflows",
+        "de": "Aktualisierte Workflows",
+        "ru": "Обновленные рабочие процессы",
+        "pt": "Fluxos de trabalho atualizados",
+        "nl": "Updated Workflows",
+        "fr": "Mise à jour des flux de travail",
+        "it": "Flussi di lavoro aggiornati",
+        "es": "Flujos de trabajo actualizados",
+        "pl": "Przepływ pracy",
+        "uk": "Оновлені робочі процеси",
+        "zh-cn": "最新工作流程"
+      },
       "1.0.4": {
         "en": "Updated LICENSE and Adapter Configs",
         "de": "Aktualisierte LICENSE und Adapter Configs",
