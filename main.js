@@ -27,43 +27,36 @@ class Cloudflare extends utils.Adapter {
 
 		if(this.config.authEmail == null || this.config.authEmail == "" || this.config.authEmail == "example@gmail.com") {
 			this.log.error('Auth Email cannot be null or be example@gmail.com, disabling adapter!')
-			this.disable()
 			return
 		}
 
 		if(this.config.authMethod != 'global' && this.config.authMethod != 'token') {
 			this.log.error('Auth Method was not global or token, disabling adapter!')
-			this.disable()
 			return
 		}
 
 		if(this.config.authKey == null || this.config.authEmail == "") {
 			this.log.error('Auth Key cannot be null, disabling adapter!')
-			this.disable()
 			return
 		}
 
 		if(this.config.zoneIdentifier == null || this.config.zoneIdentifier == "") {
 			this.log.error('Zone Identifier cannot be null, disabling adapter!')
-			this.disable()
 			return
 		}
 
 		if(this.config.recordName == null || this.config.recordName == "" || this.config.recordName == "example.org") {
 			this.log.error('Record Name cannot be null or be example.org, disabling adapter!')
-			this.disable()
 			return
 		}
 
 		if(this.config.ttl <= -1) {
 			this.log.error('TTL was under 0, disabling adapter!')
-			this.disable()
 			return
 		}
 
 		if(this.config.proxy != true && this.config.proxy != false) {
 			this.log.error('Proxy was not true or false, disabling adapter!')
-			this.disable()
 			return
 		}
 
