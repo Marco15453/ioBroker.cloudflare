@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "news": {
+      "1.0.9": {
+        "en": "Updated Workflows",
+        "de": "Aktualisierte Workflows",
+        "ru": "Обновленные рабочие процессы",
+        "pt": "Fluxos de trabalho atualizados",
+        "nl": "Updated Workflows",
+        "fr": "Mise à jour des flux de travail",
+        "it": "Flussi di lavoro aggiornati",
+        "es": "Flujos de trabajo actualizados",
+        "pl": "Przepływ pracy",
+        "uk": "Оновлені робочі процеси",
+        "zh-cn": "最新工作流程"
+      },
       "1.0.8": {
         "en": "Updated Workflows",
         "de": "Aktualisierte Workflows",
@@ -80,19 +93,6 @@
         "pl": "ReadMe",
         "uk": "Оновлено ReadMe",
         "zh-cn": "最新读者"
-      },
-      "1.0.2": {
-        "en": "Updated .eslintrc.json",
-        "de": "Aktualisiert eslintrc.json",
-        "ru": "Обновлено eslintrc.json",
-        "pt": "Actualizado eslintrc.json",
-        "nl": "Updated eslintrc",
-        "fr": "Actualisé eslintrc.json",
-        "it": "Aggiornato eslintrc.json",
-        "es": "Actualizado eslintrc.json",
-        "pl": "Updated eslintrc.json (ang.)",
-        "uk": "Ажурирано eslintrc.json",
-        "zh-cn": "二. 最新版"
       }
     },
     "title": "DDNS CloudFlare Updater",
