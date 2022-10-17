@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "news": {
+      "1.0.2": {
+        "en": "Updated .eslintrc.json",
+        "de": "Aktualisiert eslintrc.json",
+        "ru": "Обновлено eslintrc.json",
+        "pt": "Actualizado eslintrc.json",
+        "nl": "Updated eslintrc",
+        "fr": "Actualisé eslintrc.json",
+        "it": "Aggiornato eslintrc.json",
+        "es": "Actualizado eslintrc.json",
+        "pl": "Updated eslintrc.json (ang.)",
+        "uk": "Ажурирано eslintrc.json",
+        "zh-cn": "二. 最新版"
+      },
       "1.0.1": {
         "en": "Updated cloudflare.png",
         "de": "Aktualisierte Cloudflare.png",
