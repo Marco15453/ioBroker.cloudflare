@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "news": {
+      "1.0.4": {
+        "en": "Updated LICENSE and Adapter Configs",
+        "de": "Aktualisierte LICENSE und Adapter Configs",
+        "ru": "Обновленные ЛИЦЕНЗИИ и адаптер Configs",
+        "pt": "Configs de LICENSE e adaptador atualizados",
+        "nl": "Quality over Quantity (QoQ) Releases Vertaling:",
+        "fr": "Mise à jour de LICENSE et d'adaptateur Configments",
+        "it": "Configurazioni aggiornate LICENSE e Adattatore",
+        "es": "Actualizado LICENSE y Adaptador Configs",
+        "pl": "Ulepszenie LICENSE i Adapter Configs",
+        "uk": "Оновлено LICENSE та адаптери",
+        "zh-cn": "最新资料"
+      },
       "1.0.3": {
         "en": "Updated ReadMe",
         "de": "Aktualisierte ReadMe",
