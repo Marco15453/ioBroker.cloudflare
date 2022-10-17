@@ -1,0 +1,48 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "cloudflare",
+	"title": "DDNS CloudFlare Updater",
+	"description": "Automaticly Updates DNS with your Public IP Address",
+	"keywords": [
+		"DNS",
+		"CloudFlare",
+		"Updater",
+		"DDNS",
+		"DynDns",
+		"Dynamic DNS"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "logic",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"language": "JavaScript",
+	"nodeVersion": "16",
+	"adminUi": "json",
+	"tools": [
+		"ESLint",
+		"type checking",
+		"devcontainer"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Marco15453",
+	"authorGithub": "Marco15453",
+	"authorEmail": "marcolpder@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "yes",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"creatorVersion": "2.3.0"
+}
