@@ -20,7 +20,7 @@ Automaticly Updates CloudFlare DNS Record with your Public IP Address
 	### **WORK IN PROGRESS**
 -->
 
-### v1.0.0
+### **WORK IN PROGRESS**
 * (Marco15453) initial release
 
 ## License
