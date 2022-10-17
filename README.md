@@ -10,7 +10,7 @@
 
 **Tests:** ![Test and Release](https://github.com/Marco15453/ioBroker.cloudflare/workflows/Test%20and%20Release/badge.svg)
 
-## cloudflare adapter for ioBroker
+## Cloudflare Adapter for ioBroker
 
 Automaticly Updates CloudFlare DNS Record with your Public IP Address
 
@@ -19,6 +19,9 @@ Automaticly Updates CloudFlare DNS Record with your Public IP Address
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (Marco15453) Updated ReadMe
+
 ### 1.0.2 (2022-10-17)
 * (Marco15453) Updated .eslintrc.json
 
