@@ -4,6 +4,7 @@
  * Created with @iobroker/create-adapter v2.3.0
  */
 
+/* eslint-disable no-useless-escape */
 const utils = require("@iobroker/adapter-core");
 const axios = require('axios')
 
