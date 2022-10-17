@@ -1,6 +1,6 @@
 {
   "name": "iobroker.cloudflare",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automaticly Updates DNS with your Public IP Address",
   "author": {
     "name": "Marco15453",

@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "news": {
+      "1.0.3": {
+        "en": "Updated ReadMe",
+        "de": "Aktualisierte ReadMe",
+        "ru": "Обновлено ReadMe",
+        "pt": "ReadMe atualizado",
+        "nl": "Vertaling:",
+        "fr": "Actualisé ReadMe",
+        "it": "Aggiornato ReadMe",
+        "es": "Actualizado ReadMe",
+        "pl": "ReadMe",
+        "uk": "Оновлено ReadMe",
+        "zh-cn": "最新读者"
+      },
       "1.0.2": {
         "en": "Updated .eslintrc.json",
         "de": "Aktualisiert eslintrc.json",
