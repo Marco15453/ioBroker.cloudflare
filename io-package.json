@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "news": {
+      "1.0.7": {
+        "en": "Changed Log Output from error to warn",
+        "de": "Geändertes Log Ausgabe von Fehler zu warnen",
+        "ru": "Измененный лог Выход из ошибки, чтобы предупредить",
+        "pt": "Registo alterado Saída de erro para alertar",
+        "nl": "Verandering van Log Vertaling:",
+        "fr": "Journal modifié Sortie de l'erreur pour avertir",
+        "it": "Log modificato Uscita da errore per avvertire",
+        "es": "Cambio de registro Salida del error al aviso",
+        "pl": "Zmienić się Odstęp od błędów",
+        "uk": "Змінений журнал Вихід з помилки, щоб попередити",
+        "zh-cn": "B. 修改的后勤 错误的产出"
+      },
       "1.0.6": {
         "en": "Removed this.disable() to prevent unexpected errors",
         "de": "Diese.disable() entfernt, um unerwartete Fehler zu verhindern",
@@ -80,19 +93,6 @@
         "pl": "Ulepszanie chmur",
         "uk": "Оновлено Cloudflare.png",
         "zh-cn": "更新的云雾剂"
-      },
-      "1.0.0": {
-        "en": "initial release",
-        "de": "erstausstrahlung",
-        "ru": "начальный выпуск",
-        "pt": "lançamento inicial",
-        "nl": "niet",
-        "fr": "initial release",
-        "it": "rilascio iniziale",
-        "es": "liberación inicial",
-        "pl": "pierwsze wydanie",
-        "uk": "початковий реліз",
-        "zh-cn": "初步释放"
       }
     },
     "title": "DDNS CloudFlare Updater",
