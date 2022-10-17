@@ -27,21 +27,7 @@
 		],
 		"no-var": "error",
 		"no-trailing-spaces": "error",
-		"prefer-const": "error",
-		"quotes": [
-			"error",
-			"semi",
-			"quotes",
-			"double",
-			{
-				"avoidEscape": true,
-				"allowTemplateLiterals": true
-			}
-		],
-		"semi": [
-			"error",
-			"always"
-		]
+		"prefer-const": "error"
 	},
 	"parserOptions": {
 		"ecmaVersion": 2020
