@@ -23,9 +23,9 @@
 			"newLine": true
 		},
 		"zoneIdentifier": {
-			"type": "text",
-			"label": "Can be found in the 'Overview' tab of your domain",
-			"help": "Can be found in the 'Overview' tab of your domain",
+			"type": "password",
+			"label": "Zone Identifier | Can be found in the 'Overview' tab of your domain",
+			"help": "Zone Identifier | Can be found in the 'Overview' tab of your domain",
 			"newLine": true
 		},
 		"recordName": {
