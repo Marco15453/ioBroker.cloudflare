@@ -20,6 +20,7 @@ Automaticly Updates CloudFlare DNS Record with your Public IP Address
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+* (Marco15453) Updated cloudflare.png
 
 ### 1.0.0 (2022-10-17)
 * (Marco15453) initial release
