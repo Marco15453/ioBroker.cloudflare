@@ -30,6 +30,8 @@
 		"prefer-const": "error",
 		"quotes": [
 			"error",
+			"semi",
+			"quotes",
 			"double",
 			{
 				"avoidEscape": true,
