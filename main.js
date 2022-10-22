@@ -99,11 +99,17 @@ class Cloudflare extends utils.Adapter {
 	async updateDDNS() {
 		const ipv4_regex = new RegExp('([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])')
 
-		const ip = await this.requestClient({url: 'https://api.ipify.org'}).then(r => r.data)
+		let ip = await this.requestClient({url: 'https://api.ipify.org'}).then(r => r.data)
 
 		if (!ipv4_regex.test(ip)) {
-			this.log.warn('Failed to find a valid IP.')
-			this.sendLogging(`Failed to find a valid IP.`, 'warn')
+			this.log.warn('Failed to find a valid IP. Retrying with different hoster.')
+			this.sendLogging(`Failed to find a valid IP. Retrying with different hoster.`, 'warn')
+			ip = await this.requestClient({url: 'https://ipv4.icanhazip.com'}).then(r => r.data)
+		}
+
+		if(!ipv4_regex.test(ip)) {
+			this.log.error('Failed to find a valid IP. Retrying has failed.')
+			this.sendLogging(`Failed to find a valid IP. Retrying has failed.`, 'error')
 			return
 		}
 
@@ -120,7 +126,7 @@ class Cloudflare extends utils.Adapter {
 		}
 
 		if(searchRecord.result_info.count == 0) {
-			this.log.warn(`Record does not exist!, perhaps create one first? (${ip} for ${this.config.recordName})`)
+			this.log.error(`Record does not exist!, perhaps create one first? (${ip} for ${this.config.recordName})`)
 			this.sendLogging(`Record does not exist!, perhaps create one first? (${ip} for ${this.config.recordName})`, 'warn')
 			return
 		}
