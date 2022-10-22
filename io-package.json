@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "news": {
+      "1.0.10": {
+        "en": "Code Improvements and backup ip getter",
+        "de": "Code Verbesserungen und Backup ip Getter",
+        "ru": "Код Улучшения и резервное копирование ip getter",
+        "pt": "Melhorias de código e backup ip getter",
+        "nl": "Code Improvementen en back-up ip getter",
+        "fr": "Amélioration du code et ip getter de sauvegarde",
+        "it": "Miglioramenti del codice e backup ip getter",
+        "es": "Mejoras de código y copia de seguridad ip getter",
+        "pl": "Kod Improvement and backup",
+        "uk": "Удосконалення коду та резервне копіювання ip getter",
+        "zh-cn": "守则的改进和后行"
+      },
       "1.0.9": {
         "en": "Updated Workflows",
         "de": "Aktualisierte Workflows",
@@ -80,19 +93,6 @@
         "pl": "Ulepszenie LICENSE i Adapter Configs",
         "uk": "Оновлено LICENSE та адаптери",
         "zh-cn": "最新资料"
-      },
-      "1.0.3": {
-        "en": "Updated ReadMe",
-        "de": "Aktualisierte ReadMe",
-        "ru": "Обновлено ReadMe",
-        "pt": "ReadMe atualizado",
-        "nl": "Vertaling:",
-        "fr": "Actualisé ReadMe",
-        "it": "Aggiornato ReadMe",
-        "es": "Actualizado ReadMe",
-        "pl": "ReadMe",
-        "uk": "Оновлено ReadMe",
-        "zh-cn": "最新读者"
       }
     },
     "title": "DDNS CloudFlare Updater",

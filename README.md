@@ -19,7 +19,7 @@ Automaticly Updates CloudFlare DNS Record with your Public IP Address
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.10 (2022-10-22)
 * (Marco15453) Code Improvements and backup ip getter
 
 ### 1.0.9 (2022-10-17)
