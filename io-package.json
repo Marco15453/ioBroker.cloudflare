@@ -109,16 +109,16 @@
       "zh-cn": "DDNS CloudFlare 更新程序"
     },
     "desc": {
-      "en": "Automaticly Updates DNS with your Public IP Address",
-      "de": "Aktualisiert DNS automatisch mit Ihrer öffentlichen IP-Adresse",
-      "ru": "Автоматически обновляет DNS с вашим общедоступным IP-адресом",
-      "pt": "Atualiza automaticamente o DNS com seu endereço IP público",
-      "nl": "Werkt DNS automatisch bij met uw openbare IP-adres",
-      "fr": "Met automatiquement à jour le DNS avec votre adresse IP publique",
-      "it": "Aggiorna automaticamente il DNS con il tuo indirizzo IP pubblico",
-      "es": "Actualiza automáticamente el DNS con su dirección IP pública",
-      "pl": "Automatycznie aktualizuje DNS przy użyciu publicznego adresu IP",
-      "zh-cn": "使用您的公共 IP 地址自动更新 DNS"
+      "en": "Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS",
+      "de": "Updatet automatisch den eingetragenen Domain Name bei Cloudflare mit deiner öffentlicher IP Addresse um dein ioBroker. Dynamtischer DNS",
+      "ru": "Автоматически обновляет зарегистрированное доменное имя в Cloudflare вашим общедоступным IP-адресом для вашего ioBroker. Динамический DNS",
+      "pt": "Atualiza automaticamente o nome de domínio registrado na Cloudflare com seu endereço IP público para seu ioBroker. DNS dinâmico",
+      "nl": "Werkt automatisch de geregistreerde domeinnaam bij Cloudflare bij met uw openbare IP-adres voor uw ioBroker. Dynamische DNS",
+      "fr": "Met automatiquement à jour le nom de domaine enregistré chez Cloudflare avec votre adresse IP publique pour votre ioBroker. DNS dynamique",
+      "it": "Aggiorna automaticamente il nome di dominio registrato su Cloudflare con il tuo indirizzo IP pubblico per il tuo ioBroker. DNS dinamico",
+      "es": "Actualiza automáticamente el nombre de dominio registrado en Cloudflare con su dirección IP pública para su ioBroker. DNS Dinámico",
+      "pl": "Automatycznie aktualizuje zarejestrowaną nazwę domeny w Cloudflare o Twój publiczny adres IP dla Twojego ioBroker. Dynamiczny DNS",
+      "zh-cn": "使用您的 ioBroker 的公共 IP 地址自動更新在 Cloudflare 註冊的域名。 動態 DNS"
     },
     "authors": [
       "Marco15453 <support@marco15453.xyz>"

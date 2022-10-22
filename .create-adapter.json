@@ -3,7 +3,7 @@
 	"target": "directory",
 	"adapterName": "cloudflare",
 	"title": "DDNS CloudFlare Updater",
-	"description": "Automaticly Updates DNS with your Public IP Address",
+	"description": "Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS",
 	"keywords": [
 		"DNS",
 		"CloudFlare",

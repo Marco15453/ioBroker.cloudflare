@@ -11,14 +11,17 @@
 **Tests:** ![Test and Release](https://github.com/Marco15453/ioBroker.cloudflare/workflows/Test%20and%20Release/badge.svg)
 
 ## Cloudflare Adapter for ioBroker
-
-Automaticly Updates CloudFlare DNS Record with your Public IP Address
+Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS
 
 ## Changelog
 <!--
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Updated Adapter Description
+* Updated Workflow
+
 ### 1.0.10 (2022-10-22)
 * (Marco15453) Code Improvements and backup ip getter
 
