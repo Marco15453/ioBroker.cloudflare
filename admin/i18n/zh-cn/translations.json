@@ -1,5 +1,12 @@
 {
-	"cloudflare adapter settings": "cloudflare的适配器设置",
-	"option1": "选项1",
-	"option2": "选项2"
+    "cloudflare adapter settings": "cloudflare的适配器设置",
+    "authEmail": "用于登录“https://dash.cloudflare.com”的电子邮件",
+    "authMethod": "为全局 API 密钥设置为“全局”或为作用域 API 令牌设置为“令牌”",
+    "authKey": "您的 API 令牌",
+    "zoneIdentifier": "区域标识符 |可以在您域的“概述”选项卡中找到",
+    "recordName": "您要同步哪条记录",
+    "ttl": "设置 DNS TTL（秒）[0 将把它设置为自动]",
+    "proxy": "为记录启用代理",
+    "siteName": "网站名称",
+    "checkInterval": "设置更新间隔（秒）[不得低于 30 秒]"
 }

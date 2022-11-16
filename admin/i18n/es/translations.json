@@ -1,5 +1,12 @@
 {
-	"cloudflare adapter settings": "Ajustes del adaptador para cloudflare",
-	"option1": "Opción 1",
-	"option2": "opcion 2"
+    "cloudflare adapter settings": "Ajustes del adaptador para cloudflare",
+    "authEmail": "El correo electrónico utilizado para iniciar sesión 'https://dash.cloudflare.com'",
+    "authMethod": "Establecer en 'global' para la clave de API global o 'token' para el token de API con alcance",
+    "authKey": "Su token de API",
+    "zoneIdentifier": "Identificador de zona | Se puede encontrar en la pestaña \"Descripción general\" de su dominio",
+    "recordName": "Qué registro desea sincronizar",
+    "ttl": "Configure el DNS TTL (segundos) [0 lo pondrá en automático]",
+    "proxy": "Habilitar proxy para el registro",
+    "siteName": "Título del sitio",
+    "checkInterval": "Establezca el Intervalo de actualización (segundos) [No puede ser inferior a 30 segundos]"
 }

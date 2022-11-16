@@ -1,5 +1,12 @@
 {
 	"cloudflare adapter settings": "Adapter settings for cloudflare",
-	"option1": "option1",
-	"option2": "option2"
+	"authEmail": "The email used to login 'https://dash.cloudflare.com'",
+	"authMethod": "Set to 'global' for Global API Key or 'token' for Scoped API Token",
+	"authKey": "Your API Token",
+	"zoneIdentifier": "Zone Identifier | Can be found in the 'Overview' tab of your domain",
+	"recordName": "Which record you want to be synced",
+	"ttl": "Set the DNS TTL (seconds) [0 will put it to auto]",
+	"proxy": "Enable Proxy for the record",
+	"siteName": "Title of site",
+	"checkInterval": "Set the Update Interval (seconds) [May not be under 30 seconds]"
 }

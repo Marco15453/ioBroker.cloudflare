@@ -1,5 +1,12 @@
 {
-	"cloudflare adapter settings": "Adapterinstellingen voor cloudflare",
-	"option1": "Optie 1",
-	"option2": "Optie 2"
+    "cloudflare adapter settings": "Adapterinstellingen voor cloudflare",
+    "authEmail": "Het e-mailadres dat is gebruikt om in te loggen 'https://dash.cloudflare.com'",
+    "authMethod": "Stel in op 'global' voor Global API Key of 'token' voor Scoped API Token",
+    "authKey": "Uw API-token",
+    "zoneIdentifier": "Zone-identificatie | Te vinden in het tabblad 'Overzicht' van uw domein",
+    "recordName": "Welk record u wilt synchroniseren",
+    "ttl": "Stel de DNS TTL (seconden) in [0 zet het op automatisch]",
+    "proxy": "Schakel Proxy in voor de record",
+    "siteName": "Titel van de site",
+    "checkInterval": "Stel het update-interval in (seconden) [Mag niet minder dan 30 seconden zijn]"
 }
