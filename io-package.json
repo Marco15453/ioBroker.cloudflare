@@ -140,7 +140,7 @@
     "readme": "https://github.com/Marco15453/ioBroker.cloudflare/blob/main/README.md",
     "loglevel": "info",
     "mode": "daemon",
-    "type": "logic",
+    "type": "infrastructure",
     "compact": true,
     "connectionType": "cloud",
     "dataSource": "poll",
@@ -160,15 +160,11 @@
   },
   "encryptedNative": [
     "authKey",
-    "zoneIdentifier",
-    "slackUri",
-    "discordUri"
+    "zoneIdentifier"
   ],
   "protectedNative": [
     "authKey",
-    "zoneIdentifier",
-    "slackUri",
-    "discordUri"
+    "zoneIdentifier"
   ],
   "native": {
     "authEmail": "example@gmail.com",
@@ -179,9 +175,6 @@
     "ttl": 3600,
     "proxy": false,
     "siteName": "Example Site",
-    "slackChannel": "",
-    "slackUri": "",
-    "discordUri": "",
     "checkInterval": 60
   },
   "objects": [],

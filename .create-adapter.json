@@ -17,7 +17,7 @@
 		"adapter"
 	],
 	"adminFeatures": [],
-	"type": "logic",
+	"type": "infrastructure",
 	"startMode": "daemon",
 	"connectionType": "cloud",
 	"dataSource": "poll",

@@ -18,6 +18,14 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Fixed some Axios
+* Fixed Error Handling
+* Removed Discord and Slack Logs
+* Updated Adapter Type
+* Updated Minimum Node to 14.x
+* Updated Workflows
+
 ### 1.0.11 (2022-10-22)
 * Updated Adapter Description
 * Updated Workflow
