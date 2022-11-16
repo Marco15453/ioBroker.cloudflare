@@ -1,204 +1,204 @@
 {
-    "common": {
-        "name": "cloudflare",
-        "version": "1.1.0",
-        "news": {
-            "1.1.0": {
-                "en": "Fixed some Axios\nFixed Error Handling\nRemoved Discord and Slack Logs\nUpdated Adapter Type\nUpdated Minimum Node to 14.x\nUpdated Workflows",
-                "de": "Behoben einige Axios\nFehlerbehebung\nEntfernen von Discord und Slack Logs\nAktualisierter Adapter Art\nAktualisierte Mindestanzahl auf 14.x\nAktualisierte Workflows",
-                "ru": "Исправлены некоторые Axios\nИсправлена ошибка\nУдаленные Discord и Slack Logs\nОбновленный адаптер Тип\nОбновлено Минимальный Node до 14.x\nОбновленные рабочие процессы",
-                "pt": "Corrigido alguns Axios\nManipulação de erros fixos\nRegistros de Discord e Slack removidos\nAdaptador atualizado Tipo\nNó mínimo atualizado para 14.x\nFluxos de trabalho atualizados",
-                "nl": "_\nVertaling:\nVerwijderde Discord en Slack Logs\nUpdate Adapter Type\nUpdated Minimum Node tot 14\nUpdated Workflows",
-                "fr": "Fixe quelques Axios\nManipulation d'erreurs fixes\nEnlevé Discord et Slack Logs\nAdaptateur mis à jour Type\nMise à jour du noeud minimum à 14.x\nMise à jour des flux de travail",
-                "it": "Risolto qualche Axios\nGestione di errore fisso\nRimossa Discord e Slack Logs\nAdattatore aggiornato Tipo\nNodo minimo aggiornato a 14.x\nFlussi di lavoro aggiornati",
-                "es": "Arreglado algunos Axios\nManejo de error fijo\nRegistros de disco y deslizamiento eliminados\nAdaptador actualizado Tipo\nNodo mínimo actualizado a 14.x\nFlujos de trabajo actualizados",
-                "pl": "Fixed Some Axios (ang.)\nFixed Error Handling (ang.)\nRemove Discord and Slack Loges (ang.)\nAdapter Typ\nMinimum nr 14.x\nPrzepływ pracy",
-                "uk": "Виправлено деяких Axios\nВиправлено помилку\nВилучені Discord і Slack журнали\nОновлений адаптер Тип\nОновлено мінімум Node до 14.x\nОновлені робочі процеси",
-                "zh-cn": "某些Axios\nFixed Error Handling\n拆除纪律和包装后勤\nA. 最新版 类型\nA. 最新最低指标14.x\n最新工作流程"
-            },
-            "1.0.11": {
-                "en": "Updated Adapter Description\nUpdated Workflow",
-                "de": "Aktualisierter Adapter Beschreibung\nAktualisierter Workflow",
-                "ru": "Обновленный адаптер Описание\nОбновлено Workflow",
-                "pt": "Descrição do adaptador atualizado\nFluxo de trabalho atualizado",
-                "nl": "Update Adapter beschrijving\nUpdate Workflow",
-                "fr": "Adaptateur mis à jour Description\nMise à jour du flux de travail",
-                "it": "Descrizione dell'adattatore aggiornato\nFlusso di lavoro aggiornato",
-                "es": "Descripción del adaptador actualizado\nFlujo de trabajo actualizado",
-                "pl": "Updatek Adapter Description\nPracodawstwo",
-                "uk": "Оновлений адаптер Опис\nОновлений робочий процес",
-                "zh-cn": "最新说明\n最新工作流程"
-            },
-            "1.0.10": {
-                "en": "Code Improvements and backup ip getter",
-                "de": "Code Verbesserungen und Backup ip Getter",
-                "ru": "Код Улучшения и резервное копирование ip getter",
-                "pt": "Melhorias de código e backup ip getter",
-                "nl": "Code Improvementen en back-up ip getter",
-                "fr": "Amélioration du code et ip getter de sauvegarde",
-                "it": "Miglioramenti del codice e backup ip getter",
-                "es": "Mejoras de código y copia de seguridad ip getter",
-                "pl": "Kod Improvement and backup",
-                "uk": "Удосконалення коду та резервне копіювання ip getter",
-                "zh-cn": "守则的改进和后行"
-            },
-            "1.0.9": {
-                "en": "Updated Workflows",
-                "de": "Aktualisierte Workflows",
-                "ru": "Обновленные рабочие процессы",
-                "pt": "Fluxos de trabalho atualizados",
-                "nl": "Updated Workflows",
-                "fr": "Mise à jour des flux de travail",
-                "it": "Flussi di lavoro aggiornati",
-                "es": "Flujos de trabajo actualizados",
-                "pl": "Przepływ pracy",
-                "uk": "Оновлені робочі процеси",
-                "zh-cn": "最新工作流程"
-            },
-            "1.0.8": {
-                "en": "Updated Workflows",
-                "de": "Aktualisierte Workflows",
-                "ru": "Обновленные рабочие процессы",
-                "pt": "Fluxos de trabalho atualizados",
-                "nl": "Updated Workflows",
-                "fr": "Mise à jour des flux de travail",
-                "it": "Flussi di lavoro aggiornati",
-                "es": "Flujos de trabajo actualizados",
-                "pl": "Przepływ pracy",
-                "uk": "Оновлені робочі процеси",
-                "zh-cn": "最新工作流程"
-            },
-            "1.0.7": {
-                "en": "Changed Log Output from error to warn",
-                "de": "Geändertes Log Ausgabe von Fehler zu warnen",
-                "ru": "Измененный лог Выход из ошибки, чтобы предупредить",
-                "pt": "Registo alterado Saída de erro para alertar",
-                "nl": "Verandering van Log Vertaling:",
-                "fr": "Journal modifié Sortie de l'erreur pour avertir",
-                "it": "Log modificato Uscita da errore per avvertire",
-                "es": "Cambio de registro Salida del error al aviso",
-                "pl": "Zmienić się Odstęp od błędów",
-                "uk": "Змінений журнал Вихід з помилки, щоб попередити",
-                "zh-cn": "B. 修改的后勤 错误的产出"
-            },
-            "1.0.6": {
-                "en": "Removed this.disable() to prevent unexpected errors",
-                "de": "Diese.disable() entfernt, um unerwartete Fehler zu verhindern",
-                "ru": "Удалено this.disable() для предотвращения непредвиденных ошибок",
-                "pt": "Removedo this.disable() para evitar erros inesperados",
-                "nl": "Om onverwachte fouten te voorkomen",
-                "fr": "Supprimer ce.disable() pour éviter les erreurs inattendues",
-                "it": "Rimuoveto questo.disable() per prevenire errori inaspettati",
-                "es": "Quitado esto.disable() para prevenir errores inesperados",
-                "pl": "Rezultatem tego jest niespodziewanie błędów",
-                "uk": "Вилучено це.необхідний() для запобігання несподіваних помилок",
-                "zh-cn": "删除这一可区分的(防止意外错误)"
-            }
-        },
-        "title": "DDNS CloudFlare Updater",
-        "titleLang": {
-            "en": "DDNS CloudFlare Updater",
-            "de": "DDNS-CloudFlare-Updater",
-            "ru": "Программа обновления DDNS CloudFlare",
-            "pt": "Atualizador DDNS CloudFlare",
-            "nl": "DDNS CloudFlare-updater",
-            "fr": "Mise à jour DDNS CloudFlare",
-            "it": "DDNS CloudFlare Updater",
-            "es": "Actualizador DDNS CloudFlare",
-            "pl": "Aktualizator DDNS CloudFlare",
-            "zh-cn": "DDNS CloudFlare 更新程序"
-        },
-        "desc": {
-            "en": "Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS",
-            "de": "Updatet automatisch den eingetragenen Domain Name bei Cloudflare mit deiner öffentlicher IP Addresse um dein ioBroker. Dynamtischer DNS",
-            "ru": "Автоматически обновляет зарегистрированное доменное имя в Cloudflare вашим общедоступным IP-адресом для вашего ioBroker. Динамический DNS",
-            "pt": "Atualiza automaticamente o nome de domínio registrado na Cloudflare com seu endereço IP público para seu ioBroker. DNS dinâmico",
-            "nl": "Werkt automatisch de geregistreerde domeinnaam bij Cloudflare bij met uw openbare IP-adres voor uw ioBroker. Dynamische DNS",
-            "fr": "Met automatiquement à jour le nom de domaine enregistré chez Cloudflare avec votre adresse IP publique pour votre ioBroker. DNS dynamique",
-            "it": "Aggiorna automaticamente il nome di dominio registrato su Cloudflare con il tuo indirizzo IP pubblico per il tuo ioBroker. DNS dinamico",
-            "es": "Actualiza automáticamente el nombre de dominio registrado en Cloudflare con su dirección IP pública para su ioBroker. DNS Dinámico",
-            "pl": "Automatycznie aktualizuje zarejestrowaną nazwę domeny w Cloudflare o Twój publiczny adres IP dla Twojego ioBroker. Dynamiczny DNS",
-            "zh-cn": "使用您的 ioBroker 的公共 IP 地址自動更新在 Cloudflare 註冊的域名。 動態 DNS"
-        },
-        "authors": [
-            "Marco15453 <support@marco15453.xyz>"
-        ],
-        "keywords": [
-            "DNS",
-            "CloudFlare",
-            "Updater",
-            "DDNS",
-            "DynDns",
-            "Dynamic DNS"
-        ],
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "main": "main.js",
-        "icon": "cloudflare.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Marco15453/ioBroker.cloudflare/main/admin/cloudflare.png",
-        "readme": "https://github.com/Marco15453/ioBroker.cloudflare/blob/main/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "infrastructure",
-        "compact": true,
-        "connectionType": "cloud",
-        "dataSource": "poll",
-        "adminUI": {
-            "config": "json"
-        },
-        "dependencies": [
-            {
-                "js-controller": ">=3.3.22"
-            }
-        ],
-        "globalDependencies": [
-            {
-                "admin": ">=5.1.13"
-            }
-        ]
+  "common": {
+    "name": "cloudflare",
+    "version": "1.1.1",
+    "news": {
+      "1.1.1": {
+        "en": "Updated Translations",
+        "de": "Aktualisierte Übersetzungen",
+        "ru": "Обновленные переводы",
+        "pt": "Traduções atualizadas",
+        "nl": "Vertaling:",
+        "fr": "Traductions actualisées",
+        "it": "Traduzioni aggiornate",
+        "es": "Traducciones actualizadas",
+        "pl": "Tłumaczenie przekładów",
+        "uk": "Оновлені переклади",
+        "zh-cn": "最新翻译"
+      },
+      "1.1.0": {
+        "en": "Fixed some Axios\nFixed Error Handling\nRemoved Discord and Slack Logs\nUpdated Adapter Type\nUpdated Minimum Node to 14.x\nUpdated Workflows",
+        "de": "Behoben einige Axios\nFehlerbehebung\nEntfernen von Discord und Slack Logs\nAktualisierter Adapter Art\nAktualisierte Mindestanzahl auf 14.x\nAktualisierte Workflows",
+        "ru": "Исправлены некоторые Axios\nИсправлена ошибка\nУдаленные Discord и Slack Logs\nОбновленный адаптер Тип\nОбновлено Минимальный Node до 14.x\nОбновленные рабочие процессы",
+        "pt": "Corrigido alguns Axios\nManipulação de erros fixos\nRegistros de Discord e Slack removidos\nAdaptador atualizado Tipo\nNó mínimo atualizado para 14.x\nFluxos de trabalho atualizados",
+        "nl": "_\nVertaling:\nVerwijderde Discord en Slack Logs\nUpdate Adapter Type\nUpdated Minimum Node tot 14\nUpdated Workflows",
+        "fr": "Fixe quelques Axios\nManipulation d'erreurs fixes\nEnlevé Discord et Slack Logs\nAdaptateur mis à jour Type\nMise à jour du noeud minimum à 14.x\nMise à jour des flux de travail",
+        "it": "Risolto qualche Axios\nGestione di errore fisso\nRimossa Discord e Slack Logs\nAdattatore aggiornato Tipo\nNodo minimo aggiornato a 14.x\nFlussi di lavoro aggiornati",
+        "es": "Arreglado algunos Axios\nManejo de error fijo\nRegistros de disco y deslizamiento eliminados\nAdaptador actualizado Tipo\nNodo mínimo actualizado a 14.x\nFlujos de trabajo actualizados",
+        "pl": "Fixed Some Axios (ang.)\nFixed Error Handling (ang.)\nRemove Discord and Slack Loges (ang.)\nAdapter Typ\nMinimum nr 14.x\nPrzepływ pracy",
+        "uk": "Виправлено деяких Axios\nВиправлено помилку\nВилучені Discord і Slack журнали\nОновлений адаптер Тип\nОновлено мінімум Node до 14.x\nОновлені робочі процеси",
+        "zh-cn": "某些Axios\nFixed Error Handling\n拆除纪律和包装后勤\nA. 最新版 类型\nA. 最新最低指标14.x\n最新工作流程"
+      },
+      "1.0.11": {
+        "en": "Updated Adapter Description\nUpdated Workflow",
+        "de": "Aktualisierter Adapter Beschreibung\nAktualisierter Workflow",
+        "ru": "Обновленный адаптер Описание\nОбновлено Workflow",
+        "pt": "Descrição do adaptador atualizado\nFluxo de trabalho atualizado",
+        "nl": "Update Adapter beschrijving\nUpdate Workflow",
+        "fr": "Adaptateur mis à jour Description\nMise à jour du flux de travail",
+        "it": "Descrizione dell'adattatore aggiornato\nFlusso di lavoro aggiornato",
+        "es": "Descripción del adaptador actualizado\nFlujo de trabajo actualizado",
+        "pl": "Updatek Adapter Description\nPracodawstwo",
+        "uk": "Оновлений адаптер Опис\nОновлений робочий процес",
+        "zh-cn": "最新说明\n最新工作流程"
+      },
+      "1.0.10": {
+        "en": "Code Improvements and backup ip getter",
+        "de": "Code Verbesserungen und Backup ip Getter",
+        "ru": "Код Улучшения и резервное копирование ip getter",
+        "pt": "Melhorias de código e backup ip getter",
+        "nl": "Code Improvementen en back-up ip getter",
+        "fr": "Amélioration du code et ip getter de sauvegarde",
+        "it": "Miglioramenti del codice e backup ip getter",
+        "es": "Mejoras de código y copia de seguridad ip getter",
+        "pl": "Kod Improvement and backup",
+        "uk": "Удосконалення коду та резервне копіювання ip getter",
+        "zh-cn": "守则的改进和后行"
+      },
+      "1.0.9": {
+        "en": "Updated Workflows",
+        "de": "Aktualisierte Workflows",
+        "ru": "Обновленные рабочие процессы",
+        "pt": "Fluxos de trabalho atualizados",
+        "nl": "Updated Workflows",
+        "fr": "Mise à jour des flux de travail",
+        "it": "Flussi di lavoro aggiornati",
+        "es": "Flujos de trabajo actualizados",
+        "pl": "Przepływ pracy",
+        "uk": "Оновлені робочі процеси",
+        "zh-cn": "最新工作流程"
+      },
+      "1.0.8": {
+        "en": "Updated Workflows",
+        "de": "Aktualisierte Workflows",
+        "ru": "Обновленные рабочие процессы",
+        "pt": "Fluxos de trabalho atualizados",
+        "nl": "Updated Workflows",
+        "fr": "Mise à jour des flux de travail",
+        "it": "Flussi di lavoro aggiornati",
+        "es": "Flujos de trabajo actualizados",
+        "pl": "Przepływ pracy",
+        "uk": "Оновлені робочі процеси",
+        "zh-cn": "最新工作流程"
+      },
+      "1.0.7": {
+        "en": "Changed Log Output from error to warn",
+        "de": "Geändertes Log Ausgabe von Fehler zu warnen",
+        "ru": "Измененный лог Выход из ошибки, чтобы предупредить",
+        "pt": "Registo alterado Saída de erro para alertar",
+        "nl": "Verandering van Log Vertaling:",
+        "fr": "Journal modifié Sortie de l'erreur pour avertir",
+        "it": "Log modificato Uscita da errore per avvertire",
+        "es": "Cambio de registro Salida del error al aviso",
+        "pl": "Zmienić się Odstęp od błędów",
+        "uk": "Змінений журнал Вихід з помилки, щоб попередити",
+        "zh-cn": "B. 修改的后勤 错误的产出"
+      }
     },
-    "encryptedNative": [
-        "authKey",
-        "zoneIdentifier"
-    ],
-    "protectedNative": [
-        "authKey",
-        "zoneIdentifier"
-    ],
-    "native": {
-        "authEmail": "example@gmail.com",
-        "authMethod": "global",
-        "authKey": "",
-        "zoneIdentifier": "",
-        "recordName": "example.org",
-        "ttl": 3600,
-        "proxy": false,
-        "siteName": "Example Site",
-        "checkInterval": 60
+    "title": "DDNS CloudFlare Updater",
+    "titleLang": {
+      "en": "DDNS CloudFlare Updater",
+      "de": "DDNS-CloudFlare-Updater",
+      "ru": "Программа обновления DDNS CloudFlare",
+      "pt": "Atualizador DDNS CloudFlare",
+      "nl": "DDNS CloudFlare-updater",
+      "fr": "Mise à jour DDNS CloudFlare",
+      "it": "DDNS CloudFlare Updater",
+      "es": "Actualizador DDNS CloudFlare",
+      "pl": "Aktualizator DDNS CloudFlare",
+      "zh-cn": "DDNS CloudFlare 更新程序"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info",
-            "type": "channel",
-            "common": {
-                "name": "Information"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "role": "indicator.connected",
-                "name": "Device or service connected",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS",
+      "de": "Updatet automatisch den eingetragenen Domain Name bei Cloudflare mit deiner öffentlicher IP Addresse um dein ioBroker. Dynamtischer DNS",
+      "ru": "Автоматически обновляет зарегистрированное доменное имя в Cloudflare вашим общедоступным IP-адресом для вашего ioBroker. Динамический DNS",
+      "pt": "Atualiza automaticamente o nome de domínio registrado na Cloudflare com seu endereço IP público para seu ioBroker. DNS dinâmico",
+      "nl": "Werkt automatisch de geregistreerde domeinnaam bij Cloudflare bij met uw openbare IP-adres voor uw ioBroker. Dynamische DNS",
+      "fr": "Met automatiquement à jour le nom de domaine enregistré chez Cloudflare avec votre adresse IP publique pour votre ioBroker. DNS dynamique",
+      "it": "Aggiorna automaticamente il nome di dominio registrato su Cloudflare con il tuo indirizzo IP pubblico per il tuo ioBroker. DNS dinamico",
+      "es": "Actualiza automáticamente el nombre de dominio registrado en Cloudflare con su dirección IP pública para su ioBroker. DNS Dinámico",
+      "pl": "Automatycznie aktualizuje zarejestrowaną nazwę domeny w Cloudflare o Twój publiczny adres IP dla Twojego ioBroker. Dynamiczny DNS",
+      "zh-cn": "使用您的 ioBroker 的公共 IP 地址自動更新在 Cloudflare 註冊的域名。 動態 DNS"
+    },
+    "authors": [
+      "Marco15453 <support@marco15453.xyz>"
+    ],
+    "keywords": [
+      "DNS",
+      "CloudFlare",
+      "Updater",
+      "DDNS",
+      "DynDns",
+      "Dynamic DNS"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "cloudflare.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/Marco15453/ioBroker.cloudflare/main/admin/cloudflare.png",
+    "readme": "https://github.com/Marco15453/ioBroker.cloudflare/blob/main/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "infrastructure",
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=3.3.22"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=5.1.13"
+      }
     ]
+  },
+  "encryptedNative": [
+    "authKey",
+    "zoneIdentifier"
+  ],
+  "protectedNative": [
+    "authKey",
+    "zoneIdentifier"
+  ],
+  "native": {
+    "authEmail": "example@gmail.com",
+    "authMethod": "global",
+    "authKey": "",
+    "zoneIdentifier": "",
+    "recordName": "example.org",
+    "ttl": 3600,
+    "proxy": false,
+    "siteName": "Example Site",
+    "checkInterval": 60
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "Device or service connected",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
 }
