@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.0.11",
+    "version": "1.1.0",
     "news": {
+      "1.1.0": {
+        "en": "Fixed some Axios\nFixed Error Handling\nRemoved Discord and Slack Logs\nUpdated Adapter Type\nUpdated Minimum Node to 14.x\nUpdated Workflows",
+        "de": "Behoben einige Axios\nFehlerbehebung\nEntfernen von Discord und Slack Logs\nAktualisierter Adapter Art\nAktualisierte Mindestanzahl auf 14.x\nAktualisierte Workflows",
+        "ru": "Исправлены некоторые Axios\nИсправлена ошибка\nУдаленные Discord и Slack Logs\nОбновленный адаптер Тип\nОбновлено Минимальный Node до 14.x\nОбновленные рабочие процессы",
+        "pt": "Corrigido alguns Axios\nManipulação de erros fixos\nRegistros de Discord e Slack removidos\nAdaptador atualizado Tipo\nNó mínimo atualizado para 14.x\nFluxos de trabalho atualizados",
+        "nl": "_\nVertaling:\nVerwijderde Discord en Slack Logs\nUpdate Adapter Type\nUpdated Minimum Node tot 14\nUpdated Workflows",
+        "fr": "Fixe quelques Axios\nManipulation d'erreurs fixes\nEnlevé Discord et Slack Logs\nAdaptateur mis à jour Type\nMise à jour du noeud minimum à 14.x\nMise à jour des flux de travail",
+        "it": "Risolto qualche Axios\nGestione di errore fisso\nRimossa Discord e Slack Logs\nAdattatore aggiornato Tipo\nNodo minimo aggiornato a 14.x\nFlussi di lavoro aggiornati",
+        "es": "Arreglado algunos Axios\nManejo de error fijo\nRegistros de disco y deslizamiento eliminados\nAdaptador actualizado Tipo\nNodo mínimo actualizado a 14.x\nFlujos de trabajo actualizados",
+        "pl": "Fixed Some Axios (ang.)\nFixed Error Handling (ang.)\nRemove Discord and Slack Loges (ang.)\nAdapter Typ\nMinimum nr 14.x\nPrzepływ pracy",
+        "uk": "Виправлено деяких Axios\nВиправлено помилку\nВилучені Discord і Slack журнали\nОновлений адаптер Тип\nОновлено мінімум Node до 14.x\nОновлені робочі процеси",
+        "zh-cn": "某些Axios\nFixed Error Handling\n拆除纪律和包装后勤\nA. 最新版 类型\nA. 最新最低指标14.x\n最新工作流程"
+      },
       "1.0.11": {
         "en": "Updated Adapter Description\nUpdated Workflow",
         "de": "Aktualisierter Adapter Beschreibung\nAktualisierter Workflow",
@@ -80,19 +93,6 @@
         "pl": "Rezultatem tego jest niespodziewanie błędów",
         "uk": "Вилучено це.необхідний() для запобігання несподіваних помилок",
         "zh-cn": "删除这一可区分的(防止意外错误)"
-      },
-      "1.0.5": {
-        "en": "Updated Workflows",
-        "de": "Aktualisierte Workflows",
-        "ru": "Обновленные рабочие процессы",
-        "pt": "Fluxos de trabalho atualizados",
-        "nl": "Updated Workflows",
-        "fr": "Mise à jour des flux de travail",
-        "it": "Flussi di lavoro aggiornati",
-        "es": "Flujos de trabajo actualizados",
-        "pl": "Przepływ pracy",
-        "uk": "Оновлені робочі процеси",
-        "zh-cn": "最新工作流程"
       }
     },
     "title": "DDNS CloudFlare Updater",
