@@ -5,6 +5,7 @@
 	"title": "DDNS CloudFlare Updater",
 	"description": "Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS",
 	"keywords": [
+		"ioBroker",
 		"DNS",
 		"CloudFlare",
 		"Updater",

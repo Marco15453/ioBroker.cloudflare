@@ -54,45 +54,6 @@
         "pl": "Kod Improvement and backup",
         "uk": "Удосконалення коду та резервне копіювання ip getter",
         "zh-cn": "守则的改进和后行"
-      },
-      "1.0.9": {
-        "en": "Updated Workflows",
-        "de": "Aktualisierte Workflows",
-        "ru": "Обновленные рабочие процессы",
-        "pt": "Fluxos de trabalho atualizados",
-        "nl": "Updated Workflows",
-        "fr": "Mise à jour des flux de travail",
-        "it": "Flussi di lavoro aggiornati",
-        "es": "Flujos de trabajo actualizados",
-        "pl": "Przepływ pracy",
-        "uk": "Оновлені робочі процеси",
-        "zh-cn": "最新工作流程"
-      },
-      "1.0.8": {
-        "en": "Updated Workflows",
-        "de": "Aktualisierte Workflows",
-        "ru": "Обновленные рабочие процессы",
-        "pt": "Fluxos de trabalho atualizados",
-        "nl": "Updated Workflows",
-        "fr": "Mise à jour des flux de travail",
-        "it": "Flussi di lavoro aggiornati",
-        "es": "Flujos de trabajo actualizados",
-        "pl": "Przepływ pracy",
-        "uk": "Оновлені робочі процеси",
-        "zh-cn": "最新工作流程"
-      },
-      "1.0.7": {
-        "en": "Changed Log Output from error to warn",
-        "de": "Geändertes Log Ausgabe von Fehler zu warnen",
-        "ru": "Измененный лог Выход из ошибки, чтобы предупредить",
-        "pt": "Registo alterado Saída de erro para alertar",
-        "nl": "Verandering van Log Vertaling:",
-        "fr": "Journal modifié Sortie de l'erreur pour avertir",
-        "it": "Log modificato Uscita da errore per avvertire",
-        "es": "Cambio de registro Salida del error al aviso",
-        "pl": "Zmienić się Odstęp od błędów",
-        "uk": "Змінений журнал Вихід з помилки, щоб попередити",
-        "zh-cn": "B. 修改的后勤 错误的产出"
       }
     },
     "title": "DDNS CloudFlare Updater",
@@ -106,7 +67,8 @@
       "it": "DDNS CloudFlare Updater",
       "es": "Actualizador DDNS CloudFlare",
       "pl": "Aktualizator DDNS CloudFlare",
-      "zh-cn": "DDNS CloudFlare 更新程序"
+      "zh-cn": "DDNS CloudFlare 更新程序",
+      "uk": "Оновлення DDNS CloudFlare"
     },
     "desc": {
       "en": "Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS",
@@ -118,7 +80,8 @@
       "it": "Aggiorna automaticamente il nome di dominio registrato su Cloudflare con il tuo indirizzo IP pubblico per il tuo ioBroker. DNS dinamico",
       "es": "Actualiza automáticamente el nombre de dominio registrado en Cloudflare con su dirección IP pública para su ioBroker. DNS Dinámico",
       "pl": "Automatycznie aktualizuje zarejestrowaną nazwę domeny w Cloudflare o Twój publiczny adres IP dla Twojego ioBroker. Dynamiczny DNS",
-      "zh-cn": "使用您的 ioBroker 的公共 IP 地址自動更新在 Cloudflare 註冊的域名。 動態 DNS"
+      "zh-cn": "使用您的 ioBroker 的公共 IP 地址自動更新在 Cloudflare 註冊的域名。 動態 DNS",
+      "uk": "Автоматично оновлює зареєстроване доменне ім’я в Cloudflare вашою публічною IP-адресою для вашого ioBroker. Динамічний DNS"
     },
     "authors": [
       "Marco15453 <support@marco15453.xyz>"
