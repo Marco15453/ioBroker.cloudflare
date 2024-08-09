@@ -2,6 +2,7 @@
   "common": {
     "name": "cloudflare",
     "version": "1.1.2",
+    "tier": 2,
     "news": {
       "1.1.2": {
         "en": "Updating to newest versions",
@@ -69,7 +70,6 @@
         "zh-cn": "守则的改进和后行"
       }
     },
-    "title": "DDNS CloudFlare Updater",
     "titleLang": {
       "en": "DDNS CloudFlare Updater",
       "de": "DDNS-CloudFlare-Updater",
@@ -97,7 +97,7 @@
       "uk": "Автоматично оновлює зареєстроване доменне ім’я в Cloudflare вашою публічною IP-адресою для вашого ioBroker. Динамічний DNS"
     },
     "authors": [
-      "Marco15453 <support@marco15453.xyz>"
+      "Marco15453 <support@marco15453.dev>"
     ],
     "keywords": [
       "DNS",
@@ -107,9 +107,8 @@
       "DynDns",
       "Dynamic DNS"
     ],
-    "license": "MIT",
+    "licenseInformation": "MIT",
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "cloudflare.png",
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/Marco15453/ioBroker.cloudflare/main/admin/cloudflare.png",

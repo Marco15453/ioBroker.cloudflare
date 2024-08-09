@@ -18,6 +18,9 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Fixes some issues from checker
+
 ### 1.1.2 (2024-08-09)
 * Updating to newest versions
 
