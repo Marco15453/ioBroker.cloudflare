@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "news": {
+      "1.1.2": {
+        "en": "Updating to newest versions",
+        "de": "Aktualisierung der neuesten Versionen",
+        "ru": "Обновление к новейшим версиям",
+        "pt": "Actualizar as versões mais recentes",
+        "nl": "Bijwerken naar nieuwste versies",
+        "fr": "Mise à jour des dernières versions",
+        "it": "Aggiornamento alle versioni più recenti",
+        "es": "Actualización de versiones más nuevas",
+        "pl": "Aktualizacja do najnowszych wersji",
+        "uk": "Оновлення найновіших версій",
+        "zh-cn": "更新到最新版本"
+      },
       "1.1.1": {
         "en": "Updated Translations",
         "de": "Aktualisierte Übersetzungen",
