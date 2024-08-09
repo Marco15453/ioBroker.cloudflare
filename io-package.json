@@ -43,19 +43,6 @@
         "uk": "Виправлення деяких питань від перевірки",
         "zh-cn": "从检查器中修复一些问题"
       },
-      "1.1.2": {
-        "en": "Updating to newest versions",
-        "de": "Aktualisierung der neuesten Versionen",
-        "ru": "Обновление к новейшим версиям",
-        "pt": "Actualizar as versões mais recentes",
-        "nl": "Bijwerken naar nieuwste versies",
-        "fr": "Mise à jour des dernières versions",
-        "it": "Aggiornamento alle versioni più recenti",
-        "es": "Actualización de versiones más nuevas",
-        "pl": "Aktualizacja do najnowszych wersji",
-        "uk": "Оновлення найновіших версій",
-        "zh-cn": "更新到最新版本"
-      },
       "1.1.1": {
         "en": "Updated Translations",
         "de": "Aktualisierte Übersetzungen",
@@ -154,7 +141,7 @@
     },
     "dependencies": [
       {
-        "js-controller": ">=3.3.22"
+        "js-controller": ">=5.0.19"
       }
     ],
     "globalDependencies": [
