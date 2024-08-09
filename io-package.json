@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "tier": 2,
     "news": {
+      "1.1.5": {
+        "en": "Updated Workflows",
+        "de": "Aktualisierte Workflows",
+        "ru": "Обновленные рабочие процессы",
+        "pt": "Fluxos de trabalho atualizados",
+        "nl": "Bijgewerkte werkstromen",
+        "fr": "Flux de travail actualisés",
+        "it": "Flussi di lavoro aggiornati",
+        "es": "Corrientes de trabajo actualizadas",
+        "pl": "Aktualizacja przepływów roboczych",
+        "uk": "Оновлені робочі процеси",
+        "zh-cn": "更新的工作流程"
+      },
       "1.1.4": {
         "en": "Updated LicenseInformation",
         "de": "Aktualisierte Lizenzinformationen",
@@ -81,19 +94,6 @@
         "pl": "Updatek Adapter Description\nPracodawstwo",
         "uk": "Оновлений адаптер Опис\nОновлений робочий процес",
         "zh-cn": "最新说明\n最新工作流程"
-      },
-      "1.0.10": {
-        "en": "Code Improvements and backup ip getter",
-        "de": "Code Verbesserungen und Backup ip Getter",
-        "ru": "Код Улучшения и резервное копирование ip getter",
-        "pt": "Melhorias de código e backup ip getter",
-        "nl": "Code Improvementen en back-up ip getter",
-        "fr": "Amélioration du code et ip getter de sauvegarde",
-        "it": "Miglioramenti del codice e backup ip getter",
-        "es": "Mejoras de código y copia de seguridad ip getter",
-        "pl": "Kod Improvement and backup",
-        "uk": "Удосконалення коду та резервне копіювання ip getter",
-        "zh-cn": "守则的改进和后行"
       }
     },
     "titleLang": {
