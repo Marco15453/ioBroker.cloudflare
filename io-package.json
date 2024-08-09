@@ -120,7 +120,11 @@
       "DynDns",
       "Dynamic DNS"
     ],
-    "licenseInformation": "MIT",
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT",
+      "link": "https://github.com/Marco15453/ioBroker.cloudflare/blob/main/LICENSE"
+    },
     "platform": "Javascript/Node.js",
     "icon": "cloudflare.png",
     "enabled": true,
