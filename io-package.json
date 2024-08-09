@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "tier": 2,
     "news": {
+      "1.1.4": {
+        "en": "Updated LicenseInformation",
+        "de": "Aktualisierte Lizenzinformationen",
+        "ru": "Обновленная информация о лицензии",
+        "pt": "Informações de licença atualizadas",
+        "nl": "Bijgewerkte licentieinformatie",
+        "fr": "Mise à jour des informations sur les licences",
+        "it": "Aggiornamento della Licenza",
+        "es": "Información actualizada de licencia",
+        "pl": "Aktualizacja LicenseInformation",
+        "uk": "Оновлена ліцензіяІнформація",
+        "zh-cn": "更新许可证信息"
+      },
       "1.1.3": {
         "en": "Fixes some issues from checker",
         "de": "Behebt einige Probleme vom Checker",
