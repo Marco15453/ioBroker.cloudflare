@@ -19,6 +19,7 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+* Updating to newest versions
 
 ### 1.1.1 (2022-11-16)
 * Updated Translations
