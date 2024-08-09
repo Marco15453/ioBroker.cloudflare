@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "tier": 2,
     "news": {
+      "1.1.6": {
+        "en": "Fixed E204 from Checker\nFixed E162 from Checker",
+        "de": "E204 vom Checker behoben\nE162 vom Checker behoben",
+        "ru": "Fixed E204 от Checker\nFixed E162 от Checker",
+        "pt": "Fixo E204 de Checker\nFixo E162 de Checker",
+        "nl": "Vaste E204 van Checker\nVaste E162 van Checker",
+        "fr": "Correction E204 de Checker\nCorrection E162 de Checker",
+        "it": "E204 fisso dal Checker\nFisso E162 dal Checker",
+        "es": "E204 fijado de Checker\nE162 fijado de Checker",
+        "pl": "Naprawiono E204 z kontrolera\nNaprawiono E162 z kontrolera",
+        "uk": "Виправлено E204 від Checker\nВиправлено E162 від Checker",
+        "zh-cn": "检查器的固定 E204\n检查器的固定E162"
+      },
       "1.1.5": {
         "en": "Updated Workflows",
         "de": "Aktualisierte Workflows",
