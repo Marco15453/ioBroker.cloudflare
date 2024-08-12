@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.1.6",
+    "version": "1.2.0",
     "tier": 2,
     "news": {
+      "1.2.0": {
+        "en": "Version Bump",
+        "de": "Version Bump",
+        "ru": "Версия Bump",
+        "pt": "Versão Bump",
+        "nl": "Versiebump",
+        "fr": "Version Bump",
+        "it": "Versione Bump",
+        "es": "Versión Bump",
+        "pl": "Wersja Bump",
+        "uk": "Версія Bump",
+        "zh-cn": "版本弹跳"
+      },
       "1.1.6": {
         "en": "Fixed E204 from Checker\nFixed E162 from Checker",
         "de": "E204 vom Checker behoben\nE162 vom Checker behoben",
@@ -81,19 +94,6 @@
         "pl": "Fixed Some Axios (ang.)\nFixed Error Handling (ang.)\nRemove Discord and Slack Loges (ang.)\nAdapter Typ\nMinimum nr 14.x\nPrzepływ pracy",
         "uk": "Виправлено деяких Axios\nВиправлено помилку\nВилучені Discord і Slack журнали\nОновлений адаптер Тип\nОновлено мінімум Node до 14.x\nОновлені робочі процеси",
         "zh-cn": "某些Axios\nFixed Error Handling\n拆除纪律和包装后勤\nA. 最新版 类型\nA. 最新最低指标14.x\n最新工作流程"
-      },
-      "1.0.11": {
-        "en": "Updated Adapter Description\nUpdated Workflow",
-        "de": "Aktualisierter Adapter Beschreibung\nAktualisierter Workflow",
-        "ru": "Обновленный адаптер Описание\nОбновлено Workflow",
-        "pt": "Descrição do adaptador atualizado\nFluxo de trabalho atualizado",
-        "nl": "Update Adapter beschrijving\nUpdate Workflow",
-        "fr": "Adaptateur mis à jour Description\nMise à jour du flux de travail",
-        "it": "Descrizione dell'adattatore aggiornato\nFlusso di lavoro aggiornato",
-        "es": "Descripción del adaptador actualizado\nFlujo de trabajo actualizado",
-        "pl": "Updatek Adapter Description\nPracodawstwo",
-        "uk": "Оновлений адаптер Опис\nОновлений робочий процес",
-        "zh-cn": "最新说明\n最新工作流程"
       }
     },
     "titleLang": {
