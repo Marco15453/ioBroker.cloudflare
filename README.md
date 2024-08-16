@@ -18,6 +18,9 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Fixed Axios High Vulnerability Issue detected by Dependabot
+
 ### 1.2.0 (2024-08-12)
 * Version Bump
 
