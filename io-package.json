@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "tier": 2,
     "news": {
+      "1.2.2": {
+        "en": "Added NodeJS v22 to Workflows\nUpdated README\nFixes #14",
+        "de": "NodeJS v22 zu Workflows hinzugefügt\nREADME aktualisiert\nFixes #14",
+        "ru": "Добавлено NodeJS v22 к рабочим процессам\nОбновленная информация\nFixes #14",
+        "pt": "Adicionado NodeJS v22 para fluxos de trabalho\nREADME atualizado\nCorreções #14",
+        "nl": "NodeJS v22 toegevoegd aan Workflows\nBijgewerkt LEESMERK\nFixes #14",
+        "fr": "Ajout de NodeJS v22 à Workflows\nMISE À JOUR\nCorrige #14",
+        "it": "Aggiunto NodeJS v22 ai flussi di lavoro\nREADME aggiornato\nCorrezioni #14",
+        "es": "Añadido NodeJS v22 a flujos de trabajo\nREADME actualizado\nArreglos #14",
+        "pl": "Dodano NodeJS v22 do Workflows\nAktualizacja README\nFixes # 14",
+        "uk": "Додано NodeJS v22 для робочих процесів\nОновлено README\nВиправлення #14",
+        "zh-cn": "添加到工作流程中的节点JS v22\n更新的读取器\n修复 #14"
+      },
       "1.2.1": {
         "en": "Fixed Axios High Vulnerability Issue detected by Dependabot",
         "de": "Feste Axios hohe Sicherheitslücke Ausgestellt von Dependabot",
@@ -81,19 +94,6 @@
         "pl": "Fixes niektóre problemy z checker",
         "uk": "Виправлення деяких питань від перевірки",
         "zh-cn": "从检查器中修复一些问题"
-      },
-      "1.1.1": {
-        "en": "Updated Translations",
-        "de": "Aktualisierte Übersetzungen",
-        "ru": "Обновленные переводы",
-        "pt": "Traduções atualizadas",
-        "nl": "Vertaling:",
-        "fr": "Traductions actualisées",
-        "it": "Traduzioni aggiornate",
-        "es": "Traducciones actualizadas",
-        "pl": "Tłumaczenie przekładów",
-        "uk": "Оновлені переклади",
-        "zh-cn": "最新翻译"
       }
     },
     "titleLang": {
