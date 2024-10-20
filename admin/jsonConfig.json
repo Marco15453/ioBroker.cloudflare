@@ -7,61 +7,106 @@
 			"label": "The email used to login 'https://dash.cloudflare.com'",
 			"help": "The email used to login 'https://dash.cloudflare.com'",
 			"default": "example@gmail.com",
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"authMethod": {
 			"type": "text",
 			"label": "Set to 'global' for Global API Key or 'token' for Scoped API Token",
 			"help": "Set to 'global' for Global API Key or 'token' for Scoped API Token",
 			"default": "global",
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"authKey": {
 			"type": "password",
 			"label": "Your API Token",
 			"help": "Your API Token",
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"zoneIdentifier": {
 			"type": "password",
 			"label": "Zone Identifier | Can be found in the 'Overview' tab of your domain",
 			"help": "Zone Identifier | Can be found in the 'Overview' tab of your domain",
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"recordName": {
 			"type": "text",
 			"label": "Which record you want to be synced",
 			"help": "Which record you want to be synced",
 			"default": "example.org",
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"ttl": {
 			"type": "number",
 			"label": "Set the DNS TTL (seconds) [0 will put it to auto]",
 			"help": "Set the DNS TTL (seconds) [0 will put it to auto]",
 			"default": 3600,
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"proxy": {
 			"type": "checkbox",
 			"label": "Enable Proxy for the record",
 			"help": "Enable Proxy for the record",
 			"default": false,
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"siteName": {
 			"type": "text",
 			"label": "Title of site",
 			"help": "Title of site",
 			"default": "Example Site",
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		},
 		"checkInterval": {
 			"type": "number",
 			"label": "Set the Update Interval (seconds) [May not be under 30 seconds]",
 			"help": "Set the Update Interval (seconds) [May not be under 30 seconds]",
 			"default": 60,
-			"newLine": true
+			"newLine": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"xl": 4
 		}
 	}
 }
