@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "tier": 2,
     "news": {
+      "1.2.3": {
+        "en": "Fixes Issues by RepoChecker",
+        "de": "Behebt Probleme von RepoChecker",
+        "ru": "Fixes Issues by RepoChecker",
+        "pt": "Corrige problemas por RepoChecker",
+        "nl": "Fixes problemen door RepoChecker",
+        "fr": "Correction des problèmes par RepoChecker",
+        "it": "Risolve problemi da RepoChecker",
+        "es": "Problemas fijados por RepoChecker",
+        "pl": "Fixes Issues by RepoChecker",
+        "uk": "Виправлення питань РепоЧекер",
+        "zh-cn": "由 Repo检查器修复问题"
+      },
       "1.2.2": {
         "en": "Added NodeJS v22 to Workflows\nUpdated README\nFixes #14",
         "de": "NodeJS v22 zu Workflows hinzugefügt\nREADME aktualisiert\nFixes #14",
@@ -81,19 +94,6 @@
         "pl": "Aktualizacja LicenseInformation",
         "uk": "Оновлена ліцензіяІнформація",
         "zh-cn": "更新许可证信息"
-      },
-      "1.1.3": {
-        "en": "Fixes some issues from checker",
-        "de": "Behebt einige Probleme vom Checker",
-        "ru": "Исправления некоторых вопросов от шашки",
-        "pt": "Corrige alguns problemas do verificador",
-        "nl": "Repareert een aantal problemen van checker",
-        "fr": "Correction de certains problèmes de checker",
-        "it": "Risolve alcuni problemi da checker",
-        "es": "Arregla algunos problemas del checker",
-        "pl": "Fixes niektóre problemy z checker",
-        "uk": "Виправлення деяких питань від перевірки",
-        "zh-cn": "从检查器中修复一些问题"
       }
     },
     "titleLang": {
