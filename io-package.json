@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "tier": 2,
     "news": {
+      "1.2.4": {
+        "en": "Fixed #17",
+        "de": "Behoben #17",
+        "ru": "#17",
+        "pt": "Fixo #17",
+        "nl": "Vast #17",
+        "fr": "Correction #17",
+        "it": "Fisso #17",
+        "es": "Arreglado #17",
+        "pl": "Naprawiono # 17",
+        "uk": "Виправлено #17",
+        "zh-cn": "17号固定"
+      },
       "1.2.3": {
         "en": "Fixes Issues by RepoChecker",
         "de": "Behebt Probleme von RepoChecker",
@@ -81,19 +94,6 @@
         "pl": "Aktualizacja przepływów roboczych",
         "uk": "Оновлені робочі процеси",
         "zh-cn": "更新的工作流程"
-      },
-      "1.1.4": {
-        "en": "Updated LicenseInformation",
-        "de": "Aktualisierte Lizenzinformationen",
-        "ru": "Обновленная информация о лицензии",
-        "pt": "Informações de licença atualizadas",
-        "nl": "Bijgewerkte licentieinformatie",
-        "fr": "Mise à jour des informations sur les licences",
-        "it": "Aggiornamento della Licenza",
-        "es": "Información actualizada de licencia",
-        "pl": "Aktualizacja LicenseInformation",
-        "uk": "Оновлена ліцензіяІнформація",
-        "zh-cn": "更新许可证信息"
       }
     },
     "titleLang": {
