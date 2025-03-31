@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "tier": 2,
     "news": {
+      "1.2.6": {
+        "en": "Fixed #21\nFixed Axios High Vulnerability Issue detected by Dependabot",
+        "de": "Behoben #21\nFeste Axios hohe Sicherheitslücke Ausgestellt von Dependabot",
+        "ru": "Фиксированный #21\nВысокая уязвимость Axios Обнаруженная проблема: Dependabot",
+        "pt": "Corrigido #21\nAlta Vulnerabilidade de Eixo Fixo Problema detectado por Dependeabot",
+        "nl": "Vast #21\nVaste Axios Hoge Kwetsbaarheid Door Dependabot gedetecteerd probleem",
+        "fr": "Correction #21\nVulnérabilité élevée Axios fixe Problème détecté par Dependabot",
+        "it": "Fisso #21\nAssios ad alta vulnerabilità Problema rilevato da Dependabot",
+        "es": "Arreglado #21\nAlta Vulnerabilidad de Axios fijos Cuestión detectada por Dependabot",
+        "pl": "Naprawiono # 21\nNaprawiono wysoką podatność Axios Wydanie wykryte przez Dependabot",
+        "uk": "Виправлено #21\nФіксований Axios Висока вразливість Питання, що виявляються залежно від",
+        "zh-cn": "21号固定\n高度脆弱性 Deptabot 发现的问题"
+      },
       "1.2.5": {
         "en": "Fixed #20",
         "de": "Behoben #20",
@@ -81,19 +94,6 @@
         "pl": "Wersja Bump",
         "uk": "Версія Bump",
         "zh-cn": "版本弹跳"
-      },
-      "1.1.6": {
-        "en": "Fixed E204 from Checker\nFixed E162 from Checker",
-        "de": "E204 vom Checker behoben\nE162 vom Checker behoben",
-        "ru": "Fixed E204 от Checker\nFixed E162 от Checker",
-        "pt": "Fixo E204 de Checker\nFixo E162 de Checker",
-        "nl": "Vaste E204 van Checker\nVaste E162 van Checker",
-        "fr": "Correction E204 de Checker\nCorrection E162 de Checker",
-        "it": "E204 fisso dal Checker\nFisso E162 dal Checker",
-        "es": "E204 fijado de Checker\nE162 fijado de Checker",
-        "pl": "Naprawiono E204 z kontrolera\nNaprawiono E162 z kontrolera",
-        "uk": "Виправлено E204 від Checker\nВиправлено E162 від Checker",
-        "zh-cn": "检查器的固定 E204\n检查器的固定E162"
       }
     },
     "titleLang": {
