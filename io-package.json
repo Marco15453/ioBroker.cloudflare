@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "tier": 2,
     "news": {
+      "1.2.5": {
+        "en": "Fixed #20",
+        "de": "Behoben #20",
+        "ru": "Фиксированный #20",
+        "pt": "Fixo #20",
+        "nl": "Vast #20",
+        "fr": "Correction #20",
+        "it": "Fisso #20",
+        "es": "Arreglado #20",
+        "pl": "Naprawiono # 20",
+        "uk": "Виправлено #20",
+        "zh-cn": "20号固定"
+      },
       "1.2.4": {
         "en": "Fixed #17",
         "de": "Behoben #17",
@@ -81,19 +94,6 @@
         "pl": "Naprawiono E204 z kontrolera\nNaprawiono E162 z kontrolera",
         "uk": "Виправлено E204 від Checker\nВиправлено E162 від Checker",
         "zh-cn": "检查器的固定 E204\n检查器的固定E162"
-      },
-      "1.1.5": {
-        "en": "Updated Workflows",
-        "de": "Aktualisierte Workflows",
-        "ru": "Обновленные рабочие процессы",
-        "pt": "Fluxos de trabalho atualizados",
-        "nl": "Bijgewerkte werkstromen",
-        "fr": "Flux de travail actualisés",
-        "it": "Flussi di lavoro aggiornati",
-        "es": "Corrientes de trabajo actualizadas",
-        "pl": "Aktualizacja przepływów roboczych",
-        "uk": "Оновлені робочі процеси",
-        "zh-cn": "更新的工作流程"
       }
     },
     "titleLang": {

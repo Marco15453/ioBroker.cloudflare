@@ -19,7 +19,7 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.2.5 (2025-03-31)
 * Fixed #20
 
 ### 1.2.4 (2025-02-13)
