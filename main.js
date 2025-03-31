@@ -21,6 +21,7 @@ class Cloudflare extends utils.Adapter {
         this.on("unload", this.onUnload.bind(this));
     }
 
+    // Ready
     async onReady() {
         this.setState("info.connection", false, true);
 
