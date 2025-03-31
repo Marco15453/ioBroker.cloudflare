@@ -20,6 +20,7 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+* Fixed #21
 * Fixed Axios High Vulnerability Issue detected by Dependabot
 
 ### 1.2.5 (2025-03-31)
