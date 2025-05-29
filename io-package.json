@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.6",
+    "version": "1.2.7",
     "tier": 2,
     "news": {
+      "1.2.7": {
+        "en": "Fixed #23\nFixed #24",
+        "de": "Behoben #23\nBehoben #24",
+        "ru": "Фиксированный #23\nФиксированный #24",
+        "pt": "Fixo #23\nFixo #24",
+        "nl": "Vast #23\nVast #24",
+        "fr": "Correction #23\nCorrection 24",
+        "it": "Fisso #23\nFisso #24",
+        "es": "Arreglado #23\nArreglado #24",
+        "pl": "Naprawiono # 23\nNaprawiono # 24",
+        "uk": "Виправлено #23\nВиправлено #24",
+        "zh-cn": "23号固定\n24号固定"
+      },
       "1.2.6": {
         "en": "Fixed Axios High Vulnerability Issue detected by Dependabot",
         "de": "Feste Axios hohe Sicherheitslücke Ausgestellt von Dependabot",
@@ -81,19 +94,6 @@
         "pl": "Naprawiono wysoką podatność Axios Wydanie wykryte przez Dependabot",
         "uk": "Фіксований Axios Висока вразливість Питання, що виявляються залежно від",
         "zh-cn": "高度脆弱性 Deptabot 发现的问题"
-      },
-      "1.2.0": {
-        "en": "Version Bump",
-        "de": "Version Bump",
-        "ru": "Версия Bump",
-        "pt": "Versão Bump",
-        "nl": "Versiebump",
-        "fr": "Version Bump",
-        "it": "Versione Bump",
-        "es": "Versión Bump",
-        "pl": "Wersja Bump",
-        "uk": "Версія Bump",
-        "zh-cn": "版本弹跳"
       }
     },
     "titleLang": {
