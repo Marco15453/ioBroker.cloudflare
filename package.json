@@ -1,6 +1,6 @@
 {
   "name": "iobroker.cloudflare",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Automatically updates the registered domain name at Cloudflare with your public IP address for your ioBroker. Dynamic DNS",
   "author": {
     "name": "Marco15453",

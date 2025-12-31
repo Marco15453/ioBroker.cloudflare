@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "tier": 2,
     "news": {
+      "1.2.8": {
+        "en": "Fixed #27\nFixed #28",
+        "de": "Behoben #27\nBehoben #28",
+        "ru": "Фиксированный #27\nФиксированный #28",
+        "pt": "Fixo # 27\nFixo # 28",
+        "nl": "Vast #27\nVast #28",
+        "fr": "Correction n°27\nCorrection #28",
+        "it": "Fisso #27\nFisso #28",
+        "es": "Arreglado #27\nArreglado #28",
+        "pl": "Naprawiono # 27\nNaprawiono # 28",
+        "uk": "Виправлено #27\nВиправлено #28",
+        "zh-cn": "27号固定\n28号固定"
+      },
       "1.2.7": {
         "en": "Fixed #23\nFixed #24",
         "de": "Behoben #23\nBehoben #24",
@@ -81,19 +94,6 @@
         "pl": "Dodano NodeJS v22 do Workflows\nAktualizacja README\nFixes # 14",
         "uk": "Додано NodeJS v22 для робочих процесів\nОновлено README\nВиправлення #14",
         "zh-cn": "添加到工作流程中的节点JS v22\n更新的读取器\n修复 #14"
-      },
-      "1.2.1": {
-        "en": "Fixed Axios High Vulnerability Issue detected by Dependabot",
-        "de": "Feste Axios hohe Sicherheitslücke Ausgestellt von Dependabot",
-        "ru": "Фиксированная высокая уязвимость Проблема, обнаруженная Dependabot",
-        "pt": "Alta Vulnerabilidade de Eixo Fixo Problema detectado por Dependeabot",
-        "nl": "Vaste Axios Hoge Kwetsbaarheid Door Dependabot gedetecteerd probleem",
-        "fr": "Vulnérabilité élevée Axios fixe Problème détecté par Dependabot",
-        "it": "Assios ad alta vulnerabilità Problema rilevato da Dependabot",
-        "es": "Alta Vulnerabilidad de Axios fijos Cuestión detectada por Dependabot",
-        "pl": "Naprawiono wysoką podatność Axios Wydanie wykryte przez Dependabot",
-        "uk": "Фіксований Axios Висока вразливість Питання, що виявляються залежно від",
-        "zh-cn": "高度脆弱性 Deptabot 发现的问题"
       }
     },
     "titleLang": {
