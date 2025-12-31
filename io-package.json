@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "tier": 2,
     "news": {
+      "1.2.9": {
+        "en": "Fixed #33\nFixed #34",
+        "de": "Behoben #33\nBehoben #34",
+        "ru": "Фиксированный #33\nФиксированный #34",
+        "pt": "Fixo # 33\nFixo # 34",
+        "nl": "Vast #33\nVast #34",
+        "fr": "Correction #33\nCorrection n°34",
+        "it": "Fisso #33\nFisso #34",
+        "es": "Arreglado #33\nArreglado #34",
+        "pl": "Naprawiono # 33\nNaprawiono # 34",
+        "uk": "Виправлено #33\nВиправлено #34",
+        "zh-cn": "固定 # 33\n固定的34号"
+      },
       "1.2.8": {
         "en": "Fixed #27\nFixed #28",
         "de": "Behoben #27\nBehoben #28",
@@ -81,19 +94,6 @@
         "pl": "Fixes Issues by RepoChecker",
         "uk": "Виправлення питань РепоЧекер",
         "zh-cn": "由 Repo检查器修复问题"
-      },
-      "1.2.2": {
-        "en": "Added NodeJS v22 to Workflows\nUpdated README\nFixes #14",
-        "de": "NodeJS v22 zu Workflows hinzugefügt\nREADME aktualisiert\nFixes #14",
-        "ru": "Добавлено NodeJS v22 к рабочим процессам\nОбновленная информация\nFixes #14",
-        "pt": "Adicionado NodeJS v22 para fluxos de trabalho\nREADME atualizado\nCorreções #14",
-        "nl": "NodeJS v22 toegevoegd aan Workflows\nBijgewerkt LEESMERK\nFixes #14",
-        "fr": "Ajout de NodeJS v22 à Workflows\nMISE À JOUR\nCorrige #14",
-        "it": "Aggiunto NodeJS v22 ai flussi di lavoro\nREADME aggiornato\nCorrezioni #14",
-        "es": "Añadido NodeJS v22 a flujos de trabajo\nREADME actualizado\nArreglos #14",
-        "pl": "Dodano NodeJS v22 do Workflows\nAktualizacja README\nFixes # 14",
-        "uk": "Додано NodeJS v22 для робочих процесів\nОновлено README\nВиправлення #14",
-        "zh-cn": "添加到工作流程中的节点JS v22\n更新的读取器\n修复 #14"
       }
     },
     "titleLang": {
