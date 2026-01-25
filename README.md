@@ -19,6 +19,11 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Updated Workflows
+* Updated Packages
+* Updated Package Lock file
+
 ### 1.2.9 (2025-12-31)
 * Fixed #33
 * Fixed #34
