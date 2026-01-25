@@ -1,22 +1,9 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.10",
+    "version": "1.2.9",
     "tier": 2,
     "news": {
-      "1.2.10": {
-        "en": "Updated Workflows\nUpdated Packages\nUpdated Package Lock file",
-        "de": "Aktualisierte Workflows\nAktualisierte Pakete\nAktualisierte Paketsperrdatei",
-        "ru": "Обновленные рабочие процессы\nОбновленные пакеты\nОбновленный файл Package Lock",
-        "pt": "Fluxos de Trabalho Actualizados\nPacotes Actualizados\nFicheiro de bloqueio de pacotes actualizado",
-        "nl": "Bijgewerkte werkstromen\nBijgewerkte pakketten\nBijgewerkt Package Lock-bestand",
-        "fr": "Flux de travail actualisés\nPackages mis à jour\nVerrouillage du paquet mis à jour",
-        "it": "Flussi di lavoro aggiornati\nPacchetti aggiornati\nAggiornato il file Package Lock",
-        "es": "Corrientes de trabajo actualizadas\nPaquetes actualizados\nActualizado archivo de bloqueo de paquetes",
-        "pl": "Aktualizacja przepływów roboczych\nAktualizacja pakietów\nAktualizacja pliku blokady pakietu",
-        "uk": "Оновлені робочі процеси\nОновлені пакети\nОновлений файл блокування пакета",
-        "zh-cn": "更新的工作流程\n更新软件包\n更新软件包锁定文件"
-      },
       "1.2.9": {
         "en": "Fixed #33\nFixed #34",
         "de": "Behoben #33\nBehoben #34",
