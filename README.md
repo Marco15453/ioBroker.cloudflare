@@ -123,6 +123,8 @@ Automatically updates the registered domain name at Cloudflare with your public 
 ### 1.0.0 (2022-10-17)
 * (Marco15453) initial release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 MIT License
 
