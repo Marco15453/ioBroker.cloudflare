@@ -20,7 +20,9 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- (copilot) Adapter requires node.js >= 22 now
+* Fixed #41
+* Update Node.js Version in test-and-release workflow
+* (copilot) Adapter requires node.js >= 22 now
 
 ### 1.2.10 (2026-01-25)
 * Updated Workflows
