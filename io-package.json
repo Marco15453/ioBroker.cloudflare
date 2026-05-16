@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.10",
+    "version": "1.2.11",
     "tier": 2,
     "news": {
+      "1.2.11": {
+        "en": "Fixed #41\nUpdate Node.js Version in test-and-release workflow\nAdapter requires node.js >= 22 now",
+        "de": "Behoben #41\nAktualisieren Node.js Version in Test-und-Release-Workflow\nAdapter benötigt node.js >= 22 jetzt",
+        "ru": "Фиксированный #41\nОбновление версии Node.js в рабочем процессе тестирования и выпуска\nАдаптер требует node.js >= 22 сейчас",
+        "pt": "Fixo # 41\nAtualizar a versão Node.js no fluxo de trabalho de teste e liberação\nAdaptador requer nod.js >= 22 agora",
+        "nl": "Vast #41\nUpdate Node.js versie in test-and-release workflow\nVoor de adapter zijn node.js < 22 nu nodig",
+        "fr": "Correction #41\nMettre à jour Node.js Version dans test-and-release workflow\nAdaptateur nécessite node.js >= 22 maintenant",
+        "it": "Fisso #41\nAggiornamento Node.js Versione nel flusso di lavoro di prova e rilascio\nAdattatore richiede node.js >= 22 ora",
+        "es": "Arreglado #41\nVersión Actualización Node.js en el flujo de trabajo de prueba y liberación\nAdaptador requiere node.js ю= 22 ahora",
+        "pl": "Naprawiono # 41\nAktualizuj wersję Node.js w testu- i-release workflow\nAdapter wymaga node.js > = 22",
+        "uk": "Виправлено #41\nUpdate Node.js Версія в тестовому режимі\nАдаптер вимагає node.js >= 22 тепер",
+        "zh-cn": "固定的41号\n更新测试和发布工作流程中的Node.js版本\n适配器需要节点.js 现在22"
+      },
       "1.2.10": {
         "en": "Updated Workflows\nUpdated Packages\nUpdated Package Lock file",
         "de": "Aktualisierte Workflows\nAktualisierte Pakete\nAktualisierte Paketsperrdatei",
@@ -81,19 +94,6 @@
         "pl": "Naprawiono # 20",
         "uk": "Виправлено #20",
         "zh-cn": "20号固定"
-      },
-      "1.2.4": {
-        "en": "Fixed #17",
-        "de": "Behoben #17",
-        "ru": "#17",
-        "pt": "Fixo #17",
-        "nl": "Vast #17",
-        "fr": "Correction #17",
-        "it": "Fisso #17",
-        "es": "Arreglado #17",
-        "pl": "Naprawiono # 17",
-        "uk": "Виправлено #17",
-        "zh-cn": "17号固定"
       }
     },
     "titleLang": {
