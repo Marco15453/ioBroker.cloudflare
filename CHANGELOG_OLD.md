@@ -1,9 +1,14 @@
 # Older changes
+## 1.2.11 (2026-05-16)
+* Fixed #41
+* Update Node.js Version in test-and-release workflow
+* (copilot) Adapter requires node.js >= 22 now
+
+
 ## 1.2.10 (2026-01-25)
 * Updated Workflows
 * Updated Packages
 * Updated Package Lock file
-
 
 ## 1.2.9 (2025-12-31)
 * Fixed #33

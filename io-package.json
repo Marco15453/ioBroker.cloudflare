@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.15",
+    "version": "1.2.16",
     "tier": 2,
     "news": {
+      "1.2.16": {
+        "en": "Fixed warnings by ioBroker-Bot (W0066)\nFixed suggestions by ioBroker-Bot (S4054)",
+        "de": "Warnung von IOBroker-Bot behoben (W0066)\nVorschläge von ioBroker-Bot (S4054) behoben",
+        "ru": "Исправлены предупреждения бота IOBroker-bot (W0066)\nИсправлены предложения бота IOBroker (S4054)",
+        "pt": "Avisos fixos do IOBroker-Bot (W0066)\nSugestões fixas do IOBroker-Bot (S4054)",
+        "nl": "Waarschuwingen van IOBroker-bot (W0066) opgelost\nSuggesties opgelost door IOBroker-bot (S4054)",
+        "fr": "Alertes corrigées par IObroker-bot (W0066)\nSuggestions corrigées d'IObroker-bot (S4054)",
+        "it": "Avvisi fissi di IObroker-Bot (W0066)\nCorretti consigli di IObroker-Bot (S4054)",
+        "es": "Avisos fijos de IOBroker-bot (W0066)\nSugerencias fijas de IOBroker-bot (S4054)",
+        "pl": "Naprawiono ostrzeżenia przez ioBroker-bot (W0066)\nNaprawiono sugestie ioBroker-bot (S4054)",
+        "uk": "Виправлені попередження від IObroker-bot (W0066)\nВиправлені пропозиції від IObroker-bot (S4054)",
+        "zh-cn": "修复了 iobroker-bot 的警告 (W0066)\n修复了 iobroker-bot 的建议 (S4054)"
+      },
       "1.2.15": {
         "en": "Fixed errors by ioBroker-Bot (E0036, E2004)\nFixed warnings by ioBroker-Bot (W0066, W1137, alot of W5612)\nFixed suggestions by ioBroker-Bot (S4054, S8913)",
         "de": "Fehler von ioBroker-Bot behoben (E0036, E2004)\nWarnungen von IOBroker-Bot behoben (W0066, W1137, viel W5612)\nVorschläge von ioBroker-Bot (S4054, S8913) behoben",

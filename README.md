@@ -19,7 +19,7 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.2.16 (2026-09-18)
 * Fixed warnings by ioBroker-Bot (W0066)
 * Fixed suggestions by ioBroker-Bot (S4054)
 
@@ -39,11 +39,6 @@ Automatically updates the registered domain name at Cloudflare with your public 
 ### 1.2.12 (2026-09-18)
 * Fixed ioBroker Bot issues
 * Updated packages.json
-
-### 1.2.11 (2026-05-16)
-* Fixed #41
-* Update Node.js Version in test-and-release workflow
-* (copilot) Adapter requires node.js >= 22 now
 
 [Older changelogs can be found there](CHANGELOG_OLD.md)
 
