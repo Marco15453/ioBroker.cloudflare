@@ -19,7 +19,7 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.2.12 (2026-09-18)
 * Fixed ioBroker Bot issues
 * Updated packages.json
 
@@ -40,10 +40,6 @@ Automatically updates the registered domain name at Cloudflare with your public 
 ### 1.2.8 (2025-12-31)
 * Fixed #27
 * Fixed #28
-
-### 1.2.7 (2025-05-29)
-* Fixed #23
-* Fixed #24
 
 [Older changelogs can be found there](CHANGELOG_OLD.md)
 
