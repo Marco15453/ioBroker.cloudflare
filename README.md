@@ -21,6 +21,8 @@ Automatically updates the registered domain name at Cloudflare with your public 
 -->
 ### **WORK IN PROGRESS**
 * Fixed some issues with npm
+* Fixed S5004
+* Converted Translations
 
 ### 1.2.12 (2026-09-18)
 * Fixed ioBroker Bot issues

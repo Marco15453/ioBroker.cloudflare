@@ -1,0 +1,12 @@
+{
+    "authEmail": "L'email utilisé pour se connecter 'https://dash.cloudflare.com'",
+    "authKey": "Votre jeton API",
+    "authMethod": "Défini sur \"global\" pour la clé d'API globale ou sur \"jeton\" pour le jeton d'API délimité",
+    "checkInterval": "Définir l'intervalle de mise à jour (secondes) [Ne peut pas être inférieur à 30 secondes]",
+    "cloudflare adapter settings": "Paramètres d'adaptateur pour cloudflare",
+    "proxy": "Activer le proxy pour l'enregistrement",
+    "recordName": "Quel enregistrement vous souhaitez synchroniser",
+    "siteName": "Titre du site",
+    "ttl": "Définissez le DNS TTL (secondes) [0 le mettra sur auto]",
+    "zoneIdentifier": "Identifiant de zone | Peut être trouvé dans l'onglet \"Aperçu\" de votre domaine"
+}

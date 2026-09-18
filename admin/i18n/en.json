@@ -1,0 +1,12 @@
+{
+    "authEmail": "The email used to login 'https://dash.cloudflare.com'",
+    "authKey": "Your API Token",
+    "authMethod": "Set to 'global' for Global API Key or 'token' for Scoped API Token",
+    "checkInterval": "Set the Update Interval (seconds) [May not be under 30 seconds]",
+    "cloudflare adapter settings": "Adapter settings for cloudflare",
+    "proxy": "Enable Proxy for the record",
+    "recordName": "Which record you want to be synced",
+    "siteName": "Title of site",
+    "ttl": "Set the DNS TTL (seconds) [0 will put it to auto]",
+    "zoneIdentifier": "Zone Identifier | Can be found in the 'Overview' tab of your domain"
+}

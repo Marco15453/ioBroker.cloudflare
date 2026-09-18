@@ -1,0 +1,12 @@
+{
+    "authEmail": "El correo electrónico utilizado para iniciar sesión 'https://dash.cloudflare.com'",
+    "authKey": "Su token de API",
+    "authMethod": "Establecer en 'global' para la clave de API global o 'token' para el token de API con alcance",
+    "checkInterval": "Establezca el Intervalo de actualización (segundos) [No puede ser inferior a 30 segundos]",
+    "cloudflare adapter settings": "Ajustes del adaptador para cloudflare",
+    "proxy": "Habilitar proxy para el registro",
+    "recordName": "Qué registro desea sincronizar",
+    "siteName": "Título del sitio",
+    "ttl": "Configure el DNS TTL (segundos) [0 lo pondrá en automático]",
+    "zoneIdentifier": "Identificador de zona | Se puede encontrar en la pestaña \"Descripción general\" de su dominio"
+}

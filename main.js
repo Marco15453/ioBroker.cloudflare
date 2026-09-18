@@ -87,7 +87,7 @@ class Cloudflare extends utils.Adapter {
             return true;
         };
 
-        this.updateInterval = setInterval(async () => {
+        this.updateInterval = this.setInterval(async () => {
             await this.updateDDNS();
         }, this.config.checkInterval * 1000);
 

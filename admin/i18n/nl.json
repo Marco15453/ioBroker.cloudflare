@@ -1,0 +1,12 @@
+{
+    "authEmail": "Het e-mailadres dat is gebruikt om in te loggen 'https://dash.cloudflare.com'",
+    "authKey": "Uw API-token",
+    "authMethod": "Stel in op 'global' voor Global API Key of 'token' voor Scoped API Token",
+    "checkInterval": "Stel het update-interval in (seconden) [Mag niet minder dan 30 seconden zijn]",
+    "cloudflare adapter settings": "Adapterinstellingen voor cloudflare",
+    "proxy": "Schakel Proxy in voor de record",
+    "recordName": "Welk record u wilt synchroniseren",
+    "siteName": "Titel van de site",
+    "ttl": "Stel de DNS TTL (seconden) in [0 zet het op automatisch]",
+    "zoneIdentifier": "Zone-identificatie | Te vinden in het tabblad 'Overzicht' van uw domein"
+}
