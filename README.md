@@ -19,6 +19,10 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Fixed warnings by ioBroker-Bot (W0066)
+* Fixed suggestions by ioBroker-Bot (S4054)
+
 ### 1.2.15 (2026-09-18)
 * Fixed errors by ioBroker-Bot (E0036, E2004)
 * Fixed warnings by ioBroker-Bot (W0066, W1137, alot of W5612)
@@ -46,7 +50,7 @@ Automatically updates the registered domain name at Cloudflare with your public 
 ## License
 MIT License
 
-Copyright (c) 2025-2026 Marco15453 <support@marco15453.dev>
+Copyright (c) 2025-2026 Marco15453 <contact@marco15453.dev>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
