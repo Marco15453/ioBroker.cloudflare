@@ -19,6 +19,11 @@ Automatically updates the registered domain name at Cloudflare with your public 
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Fixed errors by ioBroker-Bot (E0036, E2004)
+* Fixed warnings by ioBroker-Bot (W0066, W1137, alot of W5612)
+* Fixed suggestions by ioBroker-Bot (S4054, S8913)
+
 ### 1.2.14 (2026-09-18)
 * Fixed workflow issues
 

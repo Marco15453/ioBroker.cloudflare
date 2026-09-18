@@ -17,32 +17,6 @@
         "uk": "Виправлені проблеми робочого процесу",
         "zh-cn": "修复了工作流程问题"
       },
-      "1.2.13": {
-        "en": "Fixed some issues with npm\nFixed S5004\nConverted Translations",
-        "de": "Probleme mit NPM behoben\nFix S5004\nUmgekehrte Übersetzungen",
-        "ru": "Исправлены некоторые проблемы с npm\nФиксированный S5004\nКонвертированные переводы",
-        "pt": "Problemas com o npm corrigidos\nS5004 fixo\nTraduções convertidas",
-        "nl": "Enkele problemen met npm opgelost\nS5004 opgelost\nGeconverteerde vertalingen",
-        "fr": "Problèmes résolus avec npm\nS5004 fixe\nTraductions converties",
-        "it": "Problemi risolti con npm\nS504 fisso\nTraduzioni convertite",
-        "es": "Solucionó problemas con npm\nS5004 fijo\nTraducciones convertidas",
-        "pl": "Naprawiono niektóre problemy z npm\nNaprawiono S5004\nPrzekonwertowane tłumaczenia",
-        "uk": "Виправлені деякі проблеми з npm\nВиправлений S5004\nПеретворені переклади",
-        "zh-cn": "修复了 npm 的一些问题\n已修复 S5004\n转换后的翻译"
-      },
-      "1.2.12": {
-        "en": "Fixed ioBroker Bot issues\nUpdated packages.json",
-        "de": "IOBroker Bot behoben\nPakete.json aktualisiert",
-        "ru": "Исправлены проблемы с ботом IOBroker\nОбновленные пакеты.json",
-        "pt": "Corrigido o IOBroker Bot\nPacotes.json atualizados",
-        "nl": "Problemen met de IOBroker Bot opgelost\nBijgewerkte pakketten.json",
-        "fr": "IOBroker Bot résolu\nPackages.json mis à jour",
-        "it": "Risolti i Bot IOBroker\nPackages.json aggiornato",
-        "es": "Problemas de IOBroker Bot\nActualizó packages.json",
-        "pl": "Naprawiono problemy z iObroker Bot\nZaktualizowano packages.json",
-        "uk": "Виправлені проблеми з ботом IObroker\nОновлені пакети.json",
-        "zh-cn": "修复了 ioBroker Bot 的问题\n更新了软件包.json"
-      },
       "1.2.11": {
         "en": "Fixed #41\nUpdate Node.js Version in test-and-release workflow\nAdapter requires node.js >= 22 now",
         "de": "Behoben #41\nAktualisieren Node.js Version in Test-und-Release-Workflow\nAdapter benötigt node.js >= 22 jetzt",
@@ -123,7 +97,7 @@
       "uk": "Автоматично оновлює зареєстроване доменне ім’я в Cloudflare вашою публічною IP-адресою для вашого ioBroker. Динамічний DNS"
     },
     "authors": [
-      "Marco15453 <support@marco15453.dev>"
+      "Marco15453 <contact@marco15453.dev>"
     ],
     "keywords": [
       "DNS",
@@ -135,8 +109,7 @@
     ],
     "licenseInformation": {
       "type": "free",
-      "license": "MIT",
-      "link": "https://github.com/Marco15453/ioBroker.cloudflare/blob/main/LICENSE"
+      "license": "MIT"
     },
     "platform": "Javascript/Node.js",
     "icon": "cloudflare.png",
