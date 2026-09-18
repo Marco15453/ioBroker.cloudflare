@@ -1,8 +1,12 @@
 # Older changes
+## 1.2.8 (2025-12-31)
+* Fixed #27
+* Fixed #28
+
+
 ## 1.2.7 (2025-05-29)
 * Fixed #23
 * Fixed #24
-
 
 ## 1.2.6 (2025-03-31)
 * Fixed Axios High Vulnerability Issue detected by Dependabot

@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.12",
+    "version": "1.2.13",
     "tier": 2,
     "news": {
+      "1.2.13": {
+        "en": "Fixed some issues with npm\nFixed S5004\nConverted Translations",
+        "de": "Probleme mit NPM behoben\nFix S5004\nUmgekehrte Übersetzungen",
+        "ru": "Исправлены некоторые проблемы с npm\nФиксированный S5004\nКонвертированные переводы",
+        "pt": "Problemas com o npm corrigidos\nS5004 fixo\nTraduções convertidas",
+        "nl": "Enkele problemen met npm opgelost\nS5004 opgelost\nGeconverteerde vertalingen",
+        "fr": "Problèmes résolus avec npm\nS5004 fixe\nTraductions converties",
+        "it": "Problemi risolti con npm\nS504 fisso\nTraduzioni convertite",
+        "es": "Solucionó problemas con npm\nS5004 fijo\nTraducciones convertidas",
+        "pl": "Naprawiono niektóre problemy z npm\nNaprawiono S5004\nPrzekonwertowane tłumaczenia",
+        "uk": "Виправлені деякі проблеми з npm\nВиправлений S5004\nПеретворені переклади",
+        "zh-cn": "修复了 npm 的一些问题\n已修复 S5004\n转换后的翻译"
+      },
       "1.2.12": {
         "en": "Fixed ioBroker Bot issues\nUpdated packages.json",
         "de": "IOBroker Bot behoben\nPakete.json aktualisiert",
@@ -81,19 +94,6 @@
         "pl": "Naprawiono # 23\nNaprawiono # 24",
         "uk": "Виправлено #23\nВиправлено #24",
         "zh-cn": "23号固定\n24号固定"
-      },
-      "1.2.6": {
-        "en": "Fixed Axios High Vulnerability Issue detected by Dependabot",
-        "de": "Feste Axios hohe Sicherheitslücke Ausgestellt von Dependabot",
-        "ru": "Высокая уязвимость Axios Обнаруженная проблема: Dependabot",
-        "pt": "Alta Vulnerabilidade de Eixo Fixo Problema detectado por Dependeabot",
-        "nl": "Vaste Axios Hoge Kwetsbaarheid Door Dependabot gedetecteerd probleem",
-        "fr": "Vulnérabilité élevée Axios fixe Problème détecté par Dependabot",
-        "it": "Assios ad alta vulnerabilità Problema rilevato da Dependabot",
-        "es": "Alta Vulnerabilidad de Axios fijos Cuestión detectada por Dependabot",
-        "pl": "Naprawiono wysoką podatność Axios Wydanie wykryte przez Dependabot",
-        "uk": "Фіксований Axios Висока вразливість Питання, що виявляються залежно від",
-        "zh-cn": "高度脆弱性 Deptabot 发现的问题"
       }
     },
     "titleLang": {
