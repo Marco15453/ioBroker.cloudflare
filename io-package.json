@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.13",
+    "version": "1.2.14",
     "tier": 2,
     "news": {
+      "1.2.14": {
+        "en": "Fixed workflow issues",
+        "de": "Workflow-Probleme behoben",
+        "ru": "Исправлены проблемы с рабочим процессом",
+        "pt": "Fluxo de trabalho fixo",
+        "nl": "Problemen met de workflow opgelost",
+        "fr": "Problèmes de flux résolus",
+        "it": "Problemi fissi",
+        "es": "Problemas de flujo de trabajo",
+        "pl": "Naprawiono problemy z przepływem pracy",
+        "uk": "Виправлені проблеми робочого процесу",
+        "zh-cn": "修复了工作流程问题"
+      },
       "1.2.13": {
         "en": "Fixed some issues with npm\nFixed S5004\nConverted Translations",
         "de": "Probleme mit NPM behoben\nFix S5004\nUmgekehrte Übersetzungen",
@@ -81,19 +94,6 @@
         "pl": "Naprawiono # 27\nNaprawiono # 28",
         "uk": "Виправлено #27\nВиправлено #28",
         "zh-cn": "27号固定\n28号固定"
-      },
-      "1.2.7": {
-        "en": "Fixed #23\nFixed #24",
-        "de": "Behoben #23\nBehoben #24",
-        "ru": "Фиксированный #23\nФиксированный #24",
-        "pt": "Fixo #23\nFixo #24",
-        "nl": "Vast #23\nVast #24",
-        "fr": "Correction #23\nCorrection 24",
-        "it": "Fisso #23\nFisso #24",
-        "es": "Arreglado #23\nArreglado #24",
-        "pl": "Naprawiono # 23\nNaprawiono # 24",
-        "uk": "Виправлено #23\nВиправлено #24",
-        "zh-cn": "23号固定\n24号固定"
       }
     },
     "titleLang": {
