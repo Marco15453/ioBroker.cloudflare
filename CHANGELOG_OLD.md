@@ -1,8 +1,13 @@
 # Older changes
+## 1.2.10 (2026-01-25)
+* Updated Workflows
+* Updated Packages
+* Updated Package Lock file
+
+
 ## 1.2.9 (2025-12-31)
 * Fixed #33
 * Fixed #34
-
 
 ## 1.2.8 (2025-12-31)
 * Fixed #27

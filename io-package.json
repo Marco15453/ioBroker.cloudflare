@@ -1,9 +1,22 @@
 {
   "common": {
     "name": "cloudflare",
-    "version": "1.2.14",
+    "version": "1.2.15",
     "tier": 2,
     "news": {
+      "1.2.15": {
+        "en": "Fixed errors by ioBroker-Bot (E0036, E2004)\nFixed warnings by ioBroker-Bot (W0066, W1137, alot of W5612)\nFixed suggestions by ioBroker-Bot (S4054, S8913)",
+        "de": "Fehler von ioBroker-Bot behoben (E0036, E2004)\nWarnungen von IOBroker-Bot behoben (W0066, W1137, viel W5612)\nVorschläge von ioBroker-Bot (S4054, S8913) behoben",
+        "ru": "Исправлены ошибки ботом IOBroker (E0036, E2004)\nИсправлены предупреждения бота IOBroker-bot (W0066, W1137, много W5612)\nИсправлены предложения бота-брокера IOBroker (S4054, S8913)",
+        "pt": "Erros corrigidos pelo IOBroker-Bot (E0036, E2004)\nAvisos fixos do IOBroker-Bot (W0066, W1137, muito W5612)\nSugestões fixas do IOBroker-Bot (S4054, S8913)",
+        "nl": "Fouten opgelost door IOBroker-bot (E0036, E2004)\nWaarschuwingen van IOBroker-bot opgelost (W0066, W1137, veel W5612)\nSuggesties opgelost door IOBroker-bot (S4054, S8913)",
+        "fr": "IOBroker-bot a corrigé des erreurs (E0036, E2004)\nAlertes corrigées par IObroker-bot (W0066, W1137, beaucoup de W5612)\nSuggestions corrigées d'IObroker-bot (S4054, S8913)",
+        "it": "Corretti di IObroker-Bot (E0036, E2004)\nAvvisi fissi di IObroker-Bot (W0066, W1137, molti W5612)\nCorretti consigli di IObroker-Bot (S4054, S8913)",
+        "es": "IOBroker-bot corrigió errores (E0036, E2004)\nAvisos fijos de IOBroker-bot (W0066, W1137, mucho W5612)\nSugerencias fijas de IOBroker-bot (S4054, S8913)",
+        "pl": "Naprawiono błędy Iobroker-bot (E0036, E2004)\nNaprawiono ostrzeżenia przez ioBroker-bot (W0066, W1137, dużo W5612)\nNaprawiono sugestie ioBroker-bot (S4054, S8913)",
+        "uk": "Виправлені помилки IObroker-ботом (E0036, E2004)\nВиправлені попередження від IObroker-bot (W0066, W1137, багато W5612)\nВиправлені пропозиції від IObroker-бота (S4054, S8913)",
+        "zh-cn": "修复了 iobroker-bot（E0036、E2004）的错误\n修复了 iobroker-bot 的警告（W0066、W1137，很多 W5612）\n修复了 iobroker-bot 的建议（S4054、S8913）"
+      },
       "1.2.14": {
         "en": "Fixed workflow issues",
         "de": "Workflow-Probleme behoben",
